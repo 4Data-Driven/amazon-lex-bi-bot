@@ -1,7 +1,7 @@
-## Amazon Lex BI Bot
+# Questions
 
-Building a Conversational Business Intelligence Bot with Amazon Lex
-
-## License Summary
-
-This sample code is made available under a modified MIT license. See the LICENSE file.
+1. Which brand has the highest percentage of "I feel safe when using its cars"?
+2. Which brand has the highest percentage of "It is good value for money"?
+3. Which brand has the highest percentage of "It cares about society/ It gives back to society"?
+4. What is the attribute with the highest percentage for the DiDi brand?
+5. What is the gap between the DiDi and Uber brands for the "It is professional" attribute?
