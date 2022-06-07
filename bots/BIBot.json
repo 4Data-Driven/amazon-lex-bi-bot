@@ -1,6 +1,6 @@
 {
     "name": "BIBot-4DataDriven",
-    "description": "BIBot-4DataDriven - a SQL query bot for the TICKIT database",
+    "description": "BIBot - a SQL query bot for the TICKIT database",
     "intents": [
         {
             "intentVersion": "$LATEST",
