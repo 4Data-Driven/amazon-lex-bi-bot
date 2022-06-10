@@ -1,47 +1,27 @@
 {
     "name": "dimensions", 
-    "description": "List of dimensions in ticket database",
+    "description": "List of dimensions in database",
     "valueSelectionStrategy": "TOP_RESOLUTION", 
     "enumerationValues": [
         {
             "synonyms": [
-                "month"
+                "wave",
+                "onda"
             ], 
-            "value": "months"
+            "value": "waves"
         }, 
         {
             "synonyms": [
-                "city"
+                "marca",
+                "brand"
             ], 
-            "value": "cities"
+            "value": "marcas"
         }, 
         {
             "synonyms": [
-                "stadiums", 
-                "locations", 
-                "venue"
+                "atributo"
             ], 
-            "value": "venues"
-        }, 
-        {
-            "synonyms": [
-                "category"
-            ], 
-            "value": "categories"
-        }, 
-        {
-            "synonyms": [
-                "shows", 
-                "concerts", 
-                "event"
-            ], 
-            "value": "events"
-        }, 
-        {
-            "synonyms": [
-                "state"
-            ], 
-            "value": "states"
+            "value": "atributos"
         }
     ]
 }

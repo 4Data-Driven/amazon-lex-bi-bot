@@ -26,8 +26,8 @@ import bibot_userexits as userexits
 #
 # parameters for Refresh intent
 #
-REFRESH_QUERY = 'SELECT DISTINCT event_name from event ORDER BY event_name'
-REFRESH_SLOT = 'event_name'
+REFRESH_QUERY = 'SELECT DISTINCT marca m from marca ORDER BY m.marca'
+REFRESH_SLOT = 'marca'
 REFRESH_INTENT = 'Compare_Intent'
 REFRESH_BOT = 'BIBot'
 
