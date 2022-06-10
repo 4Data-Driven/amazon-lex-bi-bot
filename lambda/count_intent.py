@@ -23,10 +23,15 @@ import bibot_helpers as helpers
 import bibot_userexits as userexits
 
 # SELECT statement for Count query
-COUNT_SELECT = "SELECT SUM(s.qty) FROM sales s, event e, venue v, category c, date_dim d "
-COUNT_JOIN = " WHERE e.event_id = s.event_id AND v.venue_id = e.venue_id AND c.cat_id = e.cat_id AND d.date_id = e.date_id "
+# COUNT_SELECT = "SELECT SUM(s.qty) FROM sales s, event e, venue v, category c, date_dim d "
+# COUNT_JOIN = " WHERE e.event_id = s.event_id AND v.venue_id = e.venue_id AND c.cat_id = e.cat_id AND d.date_id = e.date_id "
+# COUNT_WHERE = " AND LOWER({}) LIKE LOWER('%{}%') "   
+# COUNT_PHRASE = 'tickets sold'
+
+COUNT_SELECT = "SELECT {}, ((f.resposta*f.final_weight)/(f.final_weight*100)) percent FROM fato f, atributo a, marca m, wave w  "
+COUNT_JOIN = " WHERE f.cod_det_atributo = a.cod_det_atributo AND f.cod_marca = m.cod_marca AND f.cod_wave = w.cod_wave "
 COUNT_WHERE = " AND LOWER({}) LIKE LOWER('%{}%') "   
-COUNT_PHRASE = 'tickets sold'
+COUNT_PHRASE = 'percentage'
 
 logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)

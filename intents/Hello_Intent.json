@@ -17,20 +17,14 @@
           "type": "CodeHook"
         },
         "sampleUtterances": [
-          "hello",
-          "hello there",
-          "bro",
-          "dude",
-          "hey",
-          "hey bro",
-          "hey dude",
-          "hey man",
-          "hey there",
           "hi",
-          "hi there",
+          "hey",
+          "opa",
           "BIBot",
-          "yo",
-          "you there"
+          "hello",
+          "hi there",
+          "you there",
+          "hello there"
         ],
         "slots": [
         ]

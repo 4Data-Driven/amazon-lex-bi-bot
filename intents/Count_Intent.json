@@ -24,15 +24,13 @@
           "Total {event_name} ticket sales in {venue_city}", 
           "Total {event_name} tickets sold in {event_month}", 
           "Total {event_name} ticket sales", 
-
           "How many tickets were sold for {cat_desc}", 
           "How many tickets were sold at {venue_name} in {event_month}", 
           "Tickets sold in {venue_city} {venue_state} for {event_name}", 
           "Tickets sold in {venue_state} in {event_month}", 
-	  "Count of tickets sold in {venue_city} for {event_name}", 
+	      "Count of tickets sold in {venue_city} for {event_name}", 
           "Count of tickets sold in {event_month} in {venue_city}", 
           "Ticket sales for {event_name} in {venue_state}", 
-
           "How many tickets were sold"
         ],
     "slots": [

@@ -14,6 +14,8 @@
 # OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 # SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #
+# sales s, event e, venue v, category c, date_dim d
+# (sum(f.resposta*f.final_weight)/sum(f.final_weight))*100
 
 import time
 import logging
@@ -22,11 +24,16 @@ import bibot_config as bibot
 import bibot_helpers as helpers
 import bibot_userexits as userexits
 
-# SELECT statement for Top query
-TOP_SELECT  = "SELECT {}, SUM(s.amount) ticket_sales FROM sales s, event e, venue v, category c, date_dim d  "
-TOP_JOIN    = " WHERE e.event_id = s.event_id AND v.venue_id = e.venue_id AND c.cat_id = e.cat_id AND d.date_id = e.date_id "
+# SELECT (sum(f.resposta*f.final_weight)/sum(f.final_weight))*100 
+#     FROM fato f left join marca m on f.cod_marca = m.cod_marca
+#         left join atributo a on f.cod_det_atributo = a.cod_det_atributo
+#             WHERE m.marca like 'DiDi'
+#                 AND a.det_atributo like 'I feel safe when using its cars'
+
+TOP_SELECT  = "SELECT (SUM(f.resposta*f.final_weight)/SUM(f.final_weight))*100 percentage FROM fato f LEFT JOIN marca m ON f.cod_marca = m.cod_marca LEFT JOIN atributo a ON f.cod_det_atributo = a.cod_det_atributo"
+TOP_JOIN    = " WHERE m.marca LIKE {}"
 TOP_WHERE   = " AND LOWER({}) LIKE LOWER('%{}%') " 
-TOP_ORDERBY = " GROUP BY {} ORDER BY ticket_sales desc" 
+TOP_ORDERBY = " GROUP BY {} ORDER BY percentage desc" 
 TOP_DEFAULT_COUNT = '5'
 
 logger = logging.getLogger()
@@ -121,7 +128,7 @@ def top_intent_handler(intent_request, session_attributes):
             {'contentType': 'PlainText', 'content': "Sorry, I don't know what you mean by " + slot_values['dimension']})
             
     # add JOIN clauses 
-    where_clause = TOP_JOIN
+    where_clause = TOP_JOIN.format(bibot.DIMENSIONS.get(dimension).get(slot_values.get('dimension')).get('column'))
 
     # add WHERE clause for each non empty slot
     for dimension in bibot.DIMENSIONS:

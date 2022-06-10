@@ -7,12 +7,12 @@
 #
 # Environment variables to be set in the CodeBuild project
 #
-# $BOT				Name of the Lex bot
-# $INTENTS      		List of intent names for the bot
-# $SLOTS        		List of slot type names for the bot
-# $LAMBDA       		Name of the Lambda fulfillment function for the bot
+# $BOT			            Name of the Lex bot
+# $INTENTS      	    	List of intent names for the bot
+# $SLOTS        	    	List of slot type names for the bot
+# $LAMBDA       	    	Name of the Lambda fulfillment function for the bot
 # $LAMBDA_ROLE_ARN     		ARN for the Lambda execution role
-# $ATHENA_DB    		Name of the Athena database
+# $ATHENA_DB    		    Name of the Athena database
 # $ATHENA_OUTPUT_LOCATION	Name of the S3 bucket for Athena output
 #
 

@@ -1,16 +1,16 @@
 {
     "name": "Top_Intent", 
-    "description": "Top five sales by dimension",
+    "description": "Top porcentagem by atributo",
     "sampleUtterances": [
-        "What were the top {count} {dimension} for {cat_desc}",
-        "Tell me the top {count} {dimension} in {venue_city} {venue_state}", 
-        "Top {count} {dimension} for {cat_desc}", 
-        "Top {count} {dimension} in {venue_state}", 
-        "Top {count} {dimension} in {venue_city}", 
-        "Top {count} {dimension} at {venue_name}", 
-        "Top {count} {dimension} in {event_month}", 
-        "Top {count} {dimension} for {event_name}", 
+        "What were the top {count} {dimension} for {atributo}",
+        "Tell me the top {count} {dimension} in {wave} {marca}", 
+        "Top {count} {dimension} for {atributo}", 
+        "Top {count} {dimension} for {wave}", 
+        "Top {count} {dimension} for {marca}", 
         "Top {count} {dimension}", 
+        "Top {atributo}", 
+        "Top {wave}" ,
+        "Top {marca}", 
         "Top {dimension}", 
         "Top {count}"
     ], 
@@ -49,14 +49,14 @@
             "sampleUtterances": []
         },
         {
-            "slotType": "event_name", 
-            "name": "event_name", 
+            "slotType": "marca", 
+            "name": "marca", 
             "slotConstraint": "Optional", 
             "valueElicitationPrompt": {
                 "maxAttempts": 2, 
                 "messages": [
                     {
-                        "content": "event name", 
+                        "content": "marca", 
                         "contentType": "PlainText"
                     }
                 ]
@@ -66,83 +66,36 @@
             "sampleUtterances": []
         }, 
         {
-            "slotType": "AMAZON.Month", 
-            "name": "event_month", 
+            "slotType": "wave", 
+            "name": "wave", 
             "slotConstraint": "Optional", 
             "valueElicitationPrompt": {
                 "maxAttempts": 2, 
                 "messages": [
                     {
-                        "content": "month", 
+                        "content": "wave", 
                         "contentType": "PlainText"
                     }
                 ]
             }, 
             "priority": 4, 
+            "slotTypeVersion": "$LATEST", 
             "sampleUtterances": []
         }, 
         {
-            "slotType": "AMAZON.MusicVenue", 
-            "name": "venue_name", 
+            "slotType": "atributo", 
+            "name": "atributo", 
             "slotConstraint": "Optional", 
             "valueElicitationPrompt": {
                 "maxAttempts": 2, 
                 "messages": [
                     {
-                        "content": "venue", 
+                        "content": "atributo", 
                         "contentType": "PlainText"
                     }
                 ]
             }, 
             "priority": 5, 
-            "sampleUtterances": []
-        }, 
-        {
-            "slotType": "AMAZON.US_CITY", 
-            "name": "venue_city", 
-            "slotConstraint": "Optional", 
-            "valueElicitationPrompt": {
-                "maxAttempts": 2, 
-                "messages": [
-                    {
-                        "content": "city", 
-                        "contentType": "PlainText"
-                    }
-                ]
-            }, 
-            "priority": 6, 
-            "sampleUtterances": []
-        }, 
-        {
-            "slotType": "AMAZON.US_STATE", 
-            "name": "venue_state", 
-            "slotConstraint": "Optional", 
-            "valueElicitationPrompt": {
-                "maxAttempts": 2, 
-                "messages": [
-                    {
-                        "content": "state", 
-                        "contentType": "PlainText"
-                    }
-                ]
-            }, 
-            "priority": 7, 
-            "sampleUtterances": []
-        }, 
-        {
-            "slotType": "cat_desc", 
-            "name": "cat_desc", 
-            "slotConstraint": "Optional", 
-            "valueElicitationPrompt": {
-                "maxAttempts": 2, 
-                "messages": [
-                    {
-                        "content": "category", 
-                        "contentType": "PlainText"
-                    }
-                ]
-            }, 
-            "priority": 8, 
             "slotTypeVersion": "$LATEST", 
             "sampleUtterances": []
         }

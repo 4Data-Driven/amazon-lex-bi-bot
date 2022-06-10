@@ -1,6 +1,6 @@
 {
     "name": "BIBot",
-    "description": "BIBot - a SQL query bot for the TICKIT database",
+    "description": "BIBot - a SQL query bot",
     "intents": [
         {
             "intentVersion": "$LATEST",

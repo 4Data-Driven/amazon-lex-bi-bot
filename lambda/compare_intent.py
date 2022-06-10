@@ -23,17 +23,14 @@ import bibot_helpers as helpers
 import bibot_userexits as userexits
 
 COMPARE_CONFIG = {
-    'events':     {'1st': 'one_event',    '2nd': 'another_event',    'error': 'Sorry, try "Compare sales for Event 1 versus Event 2'},
-    'months':     {'1st': 'one_month',    '2nd': 'another_month',    'error': 'Sorry, try "Compare sales for Month 1 versus Month 2'},
-    'venues':     {'1st': 'one_venue',    '2nd': 'another_venue',    'error': 'Sorry, try "Compare sales for Venue 1 versus Venue 2'},
-    'cities':     {'1st': 'one_city',     '2nd': 'another_city',     'error': 'Sorry, try "Compare sales for City 1 versus City 2'},
-    'states':     {'1st': 'one_state',    '2nd': 'another_state',    'error': 'Sorry, try "Compare sales for State 1 versus State 2'},
-    'categories': {'1st': 'one_category', '2nd': 'another_category', 'error': 'Sorry, try "Compare sales for Category 1 versus Category 2'}
+    'wave':      {'1st': 'one_wave',     '2nd': 'another_wave',     'error': 'Sorry, try "Compare percentage for Event 1 versus Event 2'},
+    'marca':     {'1st': 'one_marca',    '2nd': 'another_marca',    'error': 'Sorry, try "Compare percentage for Event 1 versus Event 2'},
+    'atributo':  {'1st': 'one_atributo', '2nd': 'another_atributo', 'error': 'Sorry, try "Compare percentage for Event 1 versus Event 2'},
 }
 
 # SELECT statement for Compare query
-COMPARE_SELECT = "SELECT {}, SUM(s.amount) ticket_sales  FROM sales s, event e, venue v, category c, date_dim d "
-COMPARE_JOIN = " WHERE e.event_id = s.event_id AND v.venue_id = e.venue_id AND c.cat_id = e.cat_id AND d.date_id = e.date_id "
+COMPARE_SELECT = "SELECT {}, ((f.resposta*f.final_weight)/(f.final_weight*100)) percent FROM fato f, atributo a,  marca m, wave w  "
+COMPARE_JOIN = " WHERE f.cod_det_atributo = a.cod_det_atributo AND f.cod_marca = m.cod_marca AND f.cod_wave = w.cod_wave"
 COMPARE_WHERE = " AND LOWER({}) LIKE LOWER('%{}%') "  
 COMPARE_ORDERBY = " GROUP BY {} ORDER BY ticket_sales DESC "
 
