@@ -27,7 +27,7 @@ aws glue create-database --database-input "Name=$ATHENA_DB,Description=$ATHENA_D
 # Create 4DATABASE fato table in Athena
 echo "Creating fato table..."
 aws athena start-query-execution \
-    --query-string "create external table fato (serial BIGINT, cod_wave INT, cod_marca INT, cod_det_atribut INT, resposta INT) ROW FORMAT DELIMITED FIELDS TERMINATED BY '|' LOCATION '$ATHENA_BUCKET/fato';" \
+    --query-string "create external table fato (`serial` BIGINT, `weight_1` FLOAT, `weight_2` FLOAT, `weight_3` FLOAT, `final_weight` FLOAT, `cod_wave` INT, `cod_marca` INT, `cod_det_atribut` INT, `resposta` INT) ROW FORMAT DELIMITED FIELDS TERMINATED BY '|' LOCATION '$ATHENA_BUCKET/fato';" \
     --query-execution-context "Database=$ATHENA_DB" \
     --result-configuration "OutputLocation=$ATHENA_BUCKET/output/" \
     >/dev/null
