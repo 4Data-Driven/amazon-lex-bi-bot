@@ -3,336 +3,918 @@
     "description": "Names of atributos in database",
     "valueSelectionStrategy": "TOP_RESOLUTION",
     "enumerationValues": [
-        { "value": "I feel safe when using its cars" },
-        { "value": "It is good value for money" },
-        { "value": "It has high quality services" },
-        { "value": "It offers comfortable ride" },
-        { "value": "It is cheaper than the other online ride-sharing/taxi apps" },
-        { "value": "It has attractive promotions" },
-        { "value": "It has a variety of service level/car types which meet my needs" },
-        { "value": "It increases its drivers’ income" },
-        { "value": "It looks after its drivers" },
-        { "value": "It is customer focused" },
-        { "value": "It is friendly" },
-        { "value": "It is innovative" },
-        { "value": "It is reliable" },
-        { "value": "It makes my life easier" },
-        { "value": "It is professional" },
-        { "value": "It understands locals" },
-        { "value": "It cares about society/ It gives back to society" },
-        { "value": "I relate to its value" },
-        { "value": "It offers fun and enjoyable ride" },
-        { "value": "Everyone is talking about it positively" },
-        { "value": "It offers something new" },
-        { "value": "It’s in the leading position in transport / mobility" },
-        { "value": "It cares about improving traffic" },
-        { "value": "It’s a brand that offer more discount coupons" },
-        { "value": "There’s benefits program I Like" },
-        { "value": "It’s a brand that I’m proud to use" },
-        { "value": "The app uses a high-end technology" },
-        { "value": "None of above" },
-        { "value": "Not answer" },
-        { "value": "It's a brand that thinks about the user" },
-        { "value": "It is a brand that offers more benefits / incentives" },
-        { "value": "The app is easy to register" },
-        { "value": "The app is stable (i.e. does not crash easily)" },
-        { "value": "The location system in App is accurate" },
-        { "value": "Destination searching in App is accurate." },
-        { "value": "Searching function in App is intelligent." },
-        { "value": "My order is picked up quickly" },
-        { "value": "Always succeed in hailing a car" },
-        { "value": "Estimated wait time for pickup is reasonable" },
-        { "value": "Wait times are accurate" },
-        { "value": "The app recommends a reasonable (i.e. easy to find) pick-up location" },
-        { "value": "Walking navigation in App is accurate." },
-        { "value": "The driver always shows up" },
-        { "value": "The driver shows up at the expected time of arrival" },
-        { "value": "The driver shows up at the designated pick-up point" },
-        { "value": "The driver dresses and behaves appropriately" },
-        { "value": "The driver doesn't detour on purpose" },
-        { "value": "The driver displays a safe and responsible driving manner" },
-        { "value": "The driver has good service attitude" },
-        { "value": "The driver charges reasonably" },
-        { "value": "The driver does not force me into giving good review" },
-        { "value": "The cancellation rules are reasonable" },
-        { "value": "The app provides reasonable route planning" },
-        { "value": "The app provides clear vehicle & driver information before boarding" },
-        { "value": "The driver appears to be consistent as per information provided by the app" },
-        { "value": "Cars are neat & tidy" },
-        { "value": "The app estimates the fare accurately" },
-        { "value": "The rule of surging at peak time is reasonable" },
-        { "value": "Fare breakdown is reasonable" },
-        { "value": "The billing is clear (i.e. itemized, complete, etc.)" },
-        { "value": "The promotion is diverse and practical" },
-        { "value": "The payment modes are versatile and easy to use" },
-        { "value": "The app allows me to issue invoice easily" },
-        { "value": "The customer service is able to solve my problems quickly" },
-        { "value": "The customer service displays good attitude" },
-        { "value": "The app is easy simple to use" },
-        { "value": "It’s easy to know where things are in the app" },
-        { "value": "The drivers use mask" },
-        { "value": "The cars are disinfected" },
-        { "value": "There is hand sanitizer in gel available in the cars." },
-        { "value": "The language and vocabulary used in the app are easy to understand" },
-        { "value": "Thay have a loyalty program that I like" },
-        { "value": "It has a monthly subscription program that offers me more advantages" },
-        { "value": "The information is easy to understand" },
-        { "value": "The app’s visual is attractive" },
-        { "value": "The app has a intuitive navigability" },
-        { "value": "The app informs me all I need to know about my ride and the driver" },
-        { "value": "The texts, in general, are easy to read (the fonts and sizes are appropriate)" },
-        { "value": "The colors in the app are nice" },
-        { "value": "The app has cool graphics (icons and images)" },
-        { "value": "I can complete any actions in app quickly" },
-        { "value": "The features are intuitive and information is easy to find" },
-        { "value": "Learning to use the app is easy" },
-        { "value": "This app gives clear, easy-to-follow directions at every step" },
-        { "value": "The app design is clean and simple" },
-        { "value": "The usability of the app is smart" },
-        { "value": "The app feels friendly" },
-        { "value": "This app feels reliable" },
-        { "value": "The driver does not play the phone while driving" },
-        { "value": "The driver does not harass me" },
-        { "value": "The temperature inside the car is comfortable" },
-        { "value": "Promotion is diverse and practical" },
-        { "value": "The driver uses GPS properly" },
-        { "value": "The app is complete (in terms of functions/features)" },
-        { "value": "The app is easy to use" },
-        { "value": "The app provides different ride hailing services depending on my need" },
-        { "value": "The app shows clearly the process of finding me a driver." },
-        { "value": "The app provides efficient ways to contact the drivers while waiting" },
-        { "value": "The driver is easy to locate once he/she arrives to the pick-up point" },
-        { "value": "The driver always drops me off at the right destination" },
-        { "value": "Walking navigation in App is accurate. (It can lead me to the pickup point" },
-        { "value": "Share your route with contacts" },
-        { "value": "Trusted contacts" },
-        { "value": "In-app emergency assistance button" },
-        { "value": "Safety center for key safety information" },
-        { "value": "Background checks for drivers" },
-        { "value": "Facial recognition of drivers" },
-        { "value": "Phone number anonymization during calls to the driver" },
-        { "value": "Real-time monitoring of rides" },
-        { "value": "Emergency center 24 hours a day" },
-        { "value": "Accident (insurance) protection" },
-        { "value": "Number of rides and drivers note" },
-        { "value": "Training about rules for drivers" },
-        { "value": "Driver information in the app" },
-        { "value": "Measures to prevent Coronavirus" },
-        { "value": "Security camera with emergency button" },
-        { "value": "Monitoring of races in case of unexpected stoppage or longer than expected race duration" },
-        { "value": "Audio recording function during the race for safety purposes" },
-        { "value": "Route sharing with trusted contacts via SMS, Whatsapp or app" },
-        { "value": "Inclusion of a trusted contact to share the route of my trip" },
-        { "value": "Anonymous phone number for the driver if the passenger calls via the app" },
-        { "value": "Emergency button to call the police" },
-        { "value": "Security Center available 24 hours for passengers in case of incidents or accidents" },
-        { "value": "Block driver function, if you do not want him to no longer receive your races" },
-        { "value": "Security camera that monitor the trip" },
-        { "value": "Checking the driver's background to make sure they have no criminal record" },
-        { "value": "Interface that offers an optimized experience of access to the security features of the application" },
-        { "value": "The application is professional" },
-        { "value": "The application is easy to use" },
-        { "value": "It offers different car types and categories which meet my needs" },
-        { "value": "The waiting time until my boarding is very short" },
-        { "value": "The trips are confortable. The cars are clean and smell good" },
-        { "value": "The trips are confortable. The cars are high quality" },
-        { "value": "High quality drivers. They are polite, good drivers and on schedule to pick-up" },
-        { "value": "Accurate in the embark and disembark locations" },
-        { "value": "fair and safe route planning" },
-        { "value": "Transparent and comprehensive drivers information. Rigorous profile check" },
-        { "value": "Security features" },
-        { "value": "Safe trips" },
-        { "value": "Customer support team easy to contact" },
-        { "value": "Customer support team with quick answer and efficient solution" },
-        { "value": "Everyone have good comments about the app" },
-        { "value": "It is taking actions to prevent coronavirus." },
-        { "value": "Good price / offers / promotions / cheap" },
-        { "value": "Others" },
-        { "value": "The price is high, not attractive promotion and arbitrary charges." },
-        { "value": "Delay and loss of receipt." },
-        { "value": "The application is not professional." },
-        { "value": "The application is not easy to use." },
-        { "value": "It offers limited cars types and categories which do not meet my needs" },
-        { "value": "The waiting time for my pick-up is too long" },
-        { "value": "The trips are unconfortable. The cars are dirty and do not smell good." },
-        { "value": "The trips are unconfortable. The cars are in bad conditions." },
-        { "value": "Low quality drivers and services. The drivers are unpolite, they do not drive safelly and they take too long to pick-up" },
-        { "value": "It is not accurate in the pick-up/drop-off locations" },
-        { "value": "Hazardous route planning and with deviations" },
-        { "value": "Incorrect/incomplete drivers information and lack of profile check" },
-        { "value": "Safety features do not make the trips more safe." },
-        { "value": "Unsafe trips" },
-        { "value": "Customer support service is difficult to contact" },
-        { "value": "Customer support service takes too long to answer and the solution is not eficiente" },
-        { "value": "Everyone is using the app. It is not necessary to recommend to others" },
-        { "value": "Everyone talks negativelly about the app." },
-        { "value": "It is not taking actions to prevent coronavirus." },
-        { "value": "I have never use it / I don't use it (a lot)" },
-        { "value": "Prefer other (Uber)" },
-        { "value": "Payment process / methods (various)" },
-        { "value": "Low availability of drivers in my region" },
-        { "value": "Bad experience" },
-        { "value": "Chinese brand" },
-        { "value": "Nothing" },
-        { "value": "Registration is very complicated or can not finish the registration" },
-        { "value": "I couldn't register my Credit or Debit card" },
-        { "value": "The app is complicated to use when ordering a service" },
-        { "value": "The application has too much bugs / freezes / closes" },
-        { "value": "The location system does not show mine or driver's exact location when ordering a service" },
-        { "value": "It doesn't have enough drivers available" },
-        { "value": "The cars take a long time to arrive" },
-        { "value": "The drivers cancel my rides" },
-        { "value": "Drivers don’t pick up orders quickly" },
-        { "value": "Wait times are too long" },
-        { "value": "It doesn't give me enough information about drivers" },
-        { "value": "The cars in service are not the same ones as ordered" },
-        { "value": "The cars are not in good condition (dirty, stinky, old, etc.)" },
-        { "value": "It is too expensive / Higher than the price I am willing to bear" },
-        { "value": "The price gets higher in rush hours" },
-        { "value": "The cancellation fee is high" },
-        { "value": "It doesn’t offer the payment methods I like to use" },
-        { "value": "It doesn’t offer routes to the destination I need" },
-        { "value": "It doesn’t offer options that suit my needs (big trunk, bicycle hack, child safety seat, room for pets,etc.)" },
-        { "value": "It doesn’t offer variety of service level (basic, executive, premium, etc.)" },
-        { "value": "It doesn't have woman driver option" },
-        { "value": "I cannot order my preferred driver" },
-        { "value": "It doesn’t offer me emergency options during or after the ride" },
-        { "value": "It doesn’t offer promotions" },
-        { "value": "It offers few discount coupons" },
-        { "value": "The customer service doesn’t offer me the best solutions for my problems" },
-        { "value": "It doesn’t have a fast customer service when I need support" },
-        { "value": "The drivers in service are not matching the ones shown in the app" },
-        { "value": "It is hard for me to meet the driver because pick-up location isn’t accurate" },
-        { "value": "Fare cannot be split with others" },
-        { "value": "I prefer not to use Chinese brands" },
-        { "value": "I don’t want to share my personal data with them" },
-        { "value": "I had a good promotion or discount code" },
-        { "value": "I wanted to save money on fares" },
-        { "value": "Other ridesharing apps were surging at the time" },
-        { "value": "No drivers were available on other ridesharing/taxi apps at the time" },
-        { "value": "I had a bad experience on another ridesharing/taxi apps" },
-        { "value": "I heard good things about from family/friends" },
-        { "value": "I was sent a promotional code from a friend/family" },
-        { "value": "I wanted more choice in ridesharing service" },
-        { "value": "Because cares more for their drivers" },
-        { "value": "Because charges their drivers a low commission" },
-        { "value": "I was waiting too long for other ridesharing/taxi apps" },
-        { "value": "I went to an event and it was the ridesharing partner" },
-        { "value": "The content of advertisement is appealing to me" },
-        { "value": "Referral from drivers" },
-        { "value": "I saw its advertising" },
-        { "value": "Registration is very complicated or cannot finish the registration" },
-        { "value": "The drivers refuse to pick me up" },
-        { "value": "The drivers didn't provide decent service (e.g. helped me to move my luggage, provide water)" },
-        { "value": "It is too expensive / Higher than the price I am willing to pay" },
-        { "value": "I prefer other ridesharing/taxi apps" },
-        { "value": "It doesn’t offer variety of service (Comfort, pool/shared, B2B service etc.)" },
-        { "value": "I don’t like Chinese brands" },
-        { "value": "It is not safe" },
-        { "value": "I heard bad stories about its service" },
-        { "value": "Other mobility APPs are safer within more preventive measures especially during the pandemic of novel Coronavirus (COVID-19)" },
-        { "value": "It is limited by insufficient phone memory" },
-        { "value": "The advertising is invasive" },
-        { "value": "Don’t offer me enough information about the drivers" },
-        { "value": "APP functionality is not user-friendly" },
-        { "value": "The app is not stable (e.g. crash)" },
-        { "value": "Drivers cancel several rides" },
-        { "value": "The navigation/ location system is not good (it cannot show my/driver location accurately, the suggested pick-up location is not accurate)" },
-        { "value": "It doesn’t offer variety of service level (taxi, basic/lit, economy, select, pool/shared, premium, luxury, etc.)" },
-        { "value": "The fare estimate is inaccurate and not close to final cost" },
-        { "value": "It has price increase at peak times" },
-        { "value": "The price has increased" },
-        { "value": "Less promotion and price are higher than before" },
-        { "value": "Promotion is less attractive than other ridesharing brands" },
-        { "value": "The promotion is not diverse" },
-        { "value": "The promotion is inconvenient to use" },
-        { "value": "I already had problems with improper billing (double payment, billing a ride that wasn’t made and others)" },
-        { "value": "It does not offer the payment method I like (i.e. cash, Paypal, credit cards, etc.)" },
-        { "value": "Inconvenient to issue the invoice" },
-        { "value": "Cancellation fee is high" },
-        { "value": "It doesn’t offer me expected safety/emergency options during or after the ride" },
-        { "value": "The attitude of customer service is poor" },
-        { "value": "The response speed of customer service is slow" },
-        { "value": "The problem-solving ability of customer service is poor" },
-        { "value": "Its drivers don't dress or behave well." },
-        { "value": "Drivers are not consistent with the information I see in the app" },
-        { "value": "Drivers are not responsible (i.e. not show-up, not following the route, driving skill is not good etc.)" },
-        { "value": "Drivers are rude or didn’t serve me well" },
-        { "value": "Other mobility APPs are safer within more preventive measures" },
-        { "value": "99" },
-        { "value": "Uber" },
-        { "value": "I have not taken any ride with security camera" },
-        { "value": "Taxi, hailing on the street or via phone" },
-        { "value": "Hitchhike app" },
-        { "value": "Bus" },
-        { "value": "Car as a driver" },
-        { "value": "Car as a passenger (excludes taxi and online ridesharing)" },
-        { "value": "Train/Subway" },
-        { "value": "Tram / Ferry" },
-        { "value": "Self-owned bicycle" },
-        { "value": "Motorcycle" },
-        { "value": "Self-owned scooter" },
-        { "value": "Mototaxi" },
-        { "value": "None of the above" },
-        { "value": "Bike using a bike share app" },
-        { "value": "Metrobus/trolebus" },
-        { "value": "Collective scooter" },
-        { "value": "Private car" },
-        { "value": "On foot" },
-        { "value": "Self-owned electric bicycle" },
-        { "value": "Electric-bicycle-sharing apps" },
-        { "value": "Collective scooter apps" },
-        { "value": "Mobility apps (excluding hailing on the street)" },
-        { "value": "None of the above fix exclusive" },
-        { "value": "Insurance" },
-        { "value": "Anonymous call" },
-        { "value": "Government collaboration" },
-        { "value": "24/7 Support" },
-        { "value": "Driver/Partner Background Check" },
-        { "value": "Driver/Partner facial recognition" },
-        { "value": "Hide address" },
-        { "value": "Intelligent models" },
-        { "value": "Un-match passenger" },
-        { "value": "Driver/Partner information" },
-        { "value": "Audio recording" },
-        { "value": "Safety Button" },
-        { "value": "Share your trip" },
-        { "value": "Trip monitoring" },
-        { "value": "Others (pls. Specify)" },
-        { "value": "Having in-app safety features and tools" },
-        { "value": "Having detailed driver/partner information" },
-        { "value": "Driver/partner follows the trip route" },
-        { "value": "Riding with respectful drivers/partners" },
-        { "value": "Having a driver/partner with good driving skills" },
-        { "value": "Car being in optimal condition" },
-        { "value": "Having an easy experience while using the app" },
-        { "value": "Having an effective process with customer service" },
-        { "value": "Receiving rapid emergency support" },
-        { "value": "Having drivers/partners screened and with background" },
-        { "value": "Knowing my personal data is being protected" },
-        { "value": "Rideshare apps (excluding taxi apps)" },
-        { "value": "Taxi (via an app)" },
-        { "value": "Undup E-hailing" },
-        { "value": "Undup Public translortation" },
-        { "value": "Undup Bike/moto/electric bike" },
-        { "value": "The brand has implemented comprehensive safety measures and protocols to ensure safe ride." },
-        { "value": "Filter drivers well based on their driving skills" },
-        { "value": "Drivers show professionalism" },
-        { "value": "Cars are clean and tidy" },
-        { "value": "Cars look safe enough" },
-        { "value": "The information of the car / plate / driver is consistent with that on the plat form" },
-        { "value": "There are multiple security functions in the app" },
-        { "value": "The location positioning / navigation function is accurate" },
-        { "value": "Take active protective measures against COVID-19 (i.e health tips, vehicle disinfection, etc.)," },
-        { "value": "Costs are so low that they compromise travel safety" },
-        { "value": "It's easy to ask for a quick ride, especially in rush hours and remote areas" },
-        { "value": "The customer service solve my problems quickly" },
-        { "value": "Use a protected / secure payment system" },
-        { "value": "I trust that they do not share or misuse my personal data" },
-        { "value": "The brand is well-known / reliable" },
-        { "value": "There are no negative reports / comments about the brand" },
-        { "value": "The brand is from European or American countries" },
-        { "value": "The brand cares about society / gives back to society" },
-        { "value": "Offers safety focused messages"}
+        { "synonyms": ["1001"], "value": "I feel safe when using its cars" },
+        { "synonyms": ["1002"], "value": "It is good value for money" },
+        { "synonyms": ["1003"], "value": "It has high quality services" },
+        { "synonyms": ["1004"], "value": "It offers comfortable ride" },
+        {
+            "synonyms": ["1005"],
+            "value": "It is cheaper than the other online ride-sharing/taxi apps"
+        },
+        { "synonyms": ["1006"], "value": "It has attractive promotions" },
+        {
+            "synonyms": ["1007"],
+            "value": "It has a variety of service level/car types which meet my needs"
+        },
+        { "synonyms": ["1008"], "value": "It increases its drivers’ income" },
+        { "synonyms": ["1009"], "value": "It looks after its drivers" },
+        { "synonyms": ["1010"], "value": "It is customer focused" },
+        { "synonyms": ["1011"], "value": "It is friendly" },
+        { "synonyms": ["1012"], "value": "It is innovative" },
+        { "synonyms": ["1013"], "value": "It is reliable" },
+        { "synonyms": ["1014"], "value": "It makes my life easier" },
+        { "synonyms": ["1015"], "value": "It is professional" },
+        { "synonyms": ["1016"], "value": "It understands locals" },
+        {
+            "synonyms": ["1017"],
+            "value": "It cares about society/ It gives back to society"
+        },
+        { "synonyms": ["1018"], "value": "I relate to its values" },
+        { "synonyms": ["1019"], "value": "It offers fun and enjoyable ride" },
+        {
+            "synonyms": ["1020"],
+            "value": "Everyone is talking about it positively"
+        },
+        { "synonyms": ["1021"], "value": "It offers something new" },
+        {
+            "synonyms": ["1022"],
+            "value": "It’s in the leading position in transport / mobility"
+        },
+        { "synonyms": ["1023"], "value": "It cares about improving traffic" },
+        {
+            "synonyms": ["1024"],
+            "value": "It’s a brand that offer more discount coupons"
+        },
+        { "synonyms": ["1025"], "value": "There’s benefits program I Like" },
+        { "synonyms": ["1026"], "value": "It’s a brand that I’m proud to use" },
+        { "synonyms": ["1027"], "value": "The app uses a high-end technology" },
+        { "synonyms": ["1028"], "value": "None of above" },
+        { "synonyms": ["1029"], "value": "Not answer" },
+        {
+            "synonyms": ["1030"],
+            "value": "It's a brand that thinks about the user"
+        },
+        {
+            "synonyms": ["1031"],
+            "value": "It is a brand that offers more benefits / incentives"
+        },
+        { "synonyms": ["1032"], "value": "The app is easy to register" },
+        {
+            "synonyms": ["1033"],
+            "value": "The app is stable (i.e. does not crash easily)"
+        },
+        {
+            "synonyms": ["1034"],
+            "value": "The location system in App is accurate"
+        },
+        {
+            "synonyms": ["1035"],
+            "value": "Destination searching in App is accurate."
+        },
+        {
+            "synonyms": ["1036"],
+            "value": "Searching function in App is intelligent."
+        },
+        { "synonyms": ["1037"], "value": "My order is picked up quickly" },
+        { "synonyms": ["1038"], "value": "Always succeed in hailing a car" },
+        {
+            "synonyms": ["1039"],
+            "value": "Estimated wait time for pickup is reasonable"
+        },
+        { "synonyms": ["1040"], "value": "Wait times are accurate" },
+        {
+            "synonyms": ["1041"],
+            "value": "The app recommends a reasonable (i.e. easy to find) pick-up location"
+        },
+        {
+            "synonyms": ["1042"],
+            "value": "Walking navigation in App is accurate."
+        },
+        { "synonyms": ["1043"], "value": "The driver always shows up" },
+        {
+            "synonyms": ["1044"],
+            "value": "The driver shows up at the expected time of arrival"
+        },
+        {
+            "synonyms": ["1045"],
+            "value": "The driver shows up at the designated pick-up point"
+        },
+        {
+            "synonyms": ["1046"],
+            "value": "The driver dresses and behaves appropriately"
+        },
+        {
+            "synonyms": ["1047"],
+            "value": "The driver doesn't detour on purpose"
+        },
+        {
+            "synonyms": ["1048"],
+            "value": "The driver displays a safe and responsible driving manner"
+        },
+        {
+            "synonyms": ["1049"],
+            "value": "The driver has good service attitude"
+        },
+        { "synonyms": ["1050"], "value": "The driver charges reasonably" },
+        {
+            "synonyms": ["1051"],
+            "value": "The driver does not force me into giving good review"
+        },
+        {
+            "synonyms": ["1052"],
+            "value": "The cancellation rules are reasonable"
+        },
+        {
+            "synonyms": ["1053"],
+            "value": "The app provides reasonable route planning"
+        },
+        {
+            "synonyms": ["1054"],
+            "value": "The app provides clear vehicle & driver information before boarding"
+        },
+        {
+            "synonyms": ["1055"],
+            "value": "The driver appears to be consistent as per information provided by the app"
+        },
+        { "synonyms": ["1056"], "value": "Cars are neat & tidy" },
+        {
+            "synonyms": ["1057"],
+            "value": "The app estimates the fare accurately"
+        },
+        {
+            "synonyms": ["1058"],
+            "value": "The rule of surging at peak time is reasonable"
+        },
+        { "synonyms": ["1059"], "value": "Fare breakdown is reasonable" },
+        {
+            "synonyms": ["1060"],
+            "value": "The billing is clear (i.e. itemized, complete, etc.)"
+        },
+        {
+            "synonyms": ["1061"],
+            "value": "The promotion is diverse and practical"
+        },
+        {
+            "synonyms": ["1062"],
+            "value": "The payment modes are versatile and easy to use"
+        },
+        {
+            "synonyms": ["1063"],
+            "value": "The app allows me to issue invoice easily"
+        },
+        {
+            "synonyms": ["1064"],
+            "value": "The customer service is able to solve my problems quickly"
+        },
+        {
+            "synonyms": ["1065"],
+            "value": "The customer service displays good attitude"
+        },
+        { "synonyms": ["1066"], "value": "The app is easy simple to use" },
+        {
+            "synonyms": ["1067"],
+            "value": "It’s easy to know where things are in the app"
+        },
+        { "synonyms": ["1068"], "value": "The drivers use mask" },
+        { "synonyms": ["1069"], "value": "The cars are disinfected" },
+        {
+            "synonyms": ["1070"],
+            "value": "There is hand sanitizer in gel available in the cars."
+        },
+        {
+            "synonyms": ["1071"],
+            "value": "The language and vocabulary used in the app are easy to understand"
+        },
+        {
+            "synonyms": ["1072"],
+            "value": "Thay have a loyalty program that I like"
+        },
+        {
+            "synonyms": ["1073"],
+            "value": "It has a monthly subscription program that offers me more advantages"
+        },
+        {
+            "synonyms": ["1074"],
+            "value": "The information is easy to understand"
+        },
+        { "synonyms": ["1075"], "value": "The app’s visual is attractive" },
+        {
+            "synonyms": ["1076"],
+            "value": "The app has a intuitive navigability"
+        },
+        {
+            "synonyms": ["1077"],
+            "value": "The app informs me all I need to know about my ride and the driver"
+        },
+        {
+            "synonyms": ["1078"],
+            "value": "The texts, in general, are easy to read (the fonts and sizes are appropriate)"
+        },
+        { "synonyms": ["1079"], "value": "The colors in the app are nice" },
+        {
+            "synonyms": ["1080"],
+            "value": "The app has cool graphics (icons and images)"
+        },
+        {
+            "synonyms": ["1081"],
+            "value": "I can complete any actions in app quickly"
+        },
+        {
+            "synonyms": ["1082"],
+            "value": "The features are intuitive and information is easy to find"
+        },
+        { "synonyms": ["1083"], "value": "Learning to use the app is easy" },
+        {
+            "synonyms": ["1084"],
+            "value": "This app gives clear, easy-to-follow directions at every step"
+        },
+        { "synonyms": ["1085"], "value": "The app design is clean and simple" },
+        { "synonyms": ["1086"], "value": "The usability of the app is smart" },
+        { "synonyms": ["1087"], "value": "The app feels friendly" },
+        { "synonyms": ["1088"], "value": "This app feels reliable" },
+        {
+            "synonyms": ["1089"],
+            "value": "The driver does not play the phone while driving"
+        },
+        { "synonyms": ["1090"], "value": "The driver does not harass me" },
+        {
+            "synonyms": ["1091"],
+            "value": "The temperature inside the car is comfortable"
+        },
+        { "synonyms": ["1092"], "value": "Promotion is diverse and practical" },
+        { "synonyms": ["1093"], "value": "The driver uses GPS properly" },
+        {
+            "synonyms": ["1094"],
+            "value": "The app is complete (in terms of functions/features)"
+        },
+        { "synonyms": ["1095"], "value": "The app is easy to use" },
+        {
+            "synonyms": ["1096"],
+            "value": "The app provides different ride hailing services depending on my need"
+        },
+        {
+            "synonyms": ["1097"],
+            "value": "The app shows clearly the process of finding me a driver."
+        },
+        {
+            "synonyms": ["1098"],
+            "value": "The app provides efficient ways to contact the drivers while waiting"
+        },
+        {
+            "synonyms": ["1099"],
+            "value": "The driver is easy to locate once he/she arrives to the pick-up point"
+        },
+        {
+            "synonyms": ["1100"],
+            "value": "The driver always drops me off at the right destination"
+        },
+        {
+            "synonyms": ["1101"],
+            "value": "Walking navigation in App is accurate. (It can lead me to the pickup point"
+        },
+        { "synonyms": ["1102"], "value": "Share your route with contacts" },
+        { "synonyms": ["1103"], "value": "Trusted contacts" },
+        { "synonyms": ["1104"], "value": "In-app emergency assistance button" },
+        {
+            "synonyms": ["1105"],
+            "value": "Safety center for key safety information"
+        },
+        { "synonyms": ["1106"], "value": "Background checks for drivers" },
+        { "synonyms": ["1107"], "value": "Facial recognition of drivers" },
+        {
+            "synonyms": ["1108"],
+            "value": "Phone number anonymization during calls to the driver"
+        },
+        { "synonyms": ["1109"], "value": "Real-time monitoring of rides" },
+        { "synonyms": ["1110"], "value": "Emergency center 24 hours a day" },
+        { "synonyms": ["1111"], "value": "Accident (insurance) protection" },
+        { "synonyms": ["1112"], "value": "Number of rides and drivers note" },
+        { "synonyms": ["1113"], "value": "Training about rules for drivers" },
+        { "synonyms": ["1114"], "value": "Driver information in the app" },
+        { "synonyms": ["1115"], "value": "Measures to prevent Coronavirus" },
+        {
+            "synonyms": ["1116"],
+            "value": "Security camera with emergency button"
+        },
+        {
+            "synonyms": ["1117"],
+            "value": "Monitoring of races in case of unexpected stoppage or longer than expected race duration"
+        },
+        {
+            "synonyms": ["1118"],
+            "value": "Audio recording function during the race for safety purposes"
+        },
+        {
+            "synonyms": ["1119"],
+            "value": "Route sharing with trusted contacts via SMS, Whatsapp or app"
+        },
+        {
+            "synonyms": ["1120"],
+            "value": "Inclusion of a trusted contact to share the route of my trip"
+        },
+        {
+            "synonyms": ["1121"],
+            "value": "Anonymous phone number for the driver if the passenger calls via the app"
+        },
+        {
+            "synonyms": ["1122"],
+            "value": "Emergency button to call the police"
+        },
+        {
+            "synonyms": ["1123"],
+            "value": "Security Center available 24 hours for passengers in case of incidents or accidents"
+        },
+        {
+            "synonyms": ["1124"],
+            "value": "Block driver function, if you do not want him to no longer receive your races"
+        },
+        {
+            "synonyms": ["1125"],
+            "value": "Security camera that monitor the trip"
+        },
+        {
+            "synonyms": ["1126"],
+            "value": "Checking the driver's background to make sure they have no criminal record"
+        },
+        {
+            "synonyms": ["1127"],
+            "value": "Interface that offers an optimized experience of access to the security features of the application"
+        },
+        { "synonyms": ["1128"], "value": "The application is professional" },
+        { "synonyms": ["1129"], "value": "The application is easy to use" },
+        {
+            "synonyms": ["1130"],
+            "value": "It offers different car types and categories which meet my needs"
+        },
+        {
+            "synonyms": ["1131"],
+            "value": "The waiting time until my boarding is very short"
+        },
+        {
+            "synonyms": ["1132"],
+            "value": "The trips are confortable. The cars are clean and smell good"
+        },
+        {
+            "synonyms": ["1133"],
+            "value": "The trips are confortable. The cars are high quality"
+        },
+        {
+            "synonyms": ["1134"],
+            "value": "High quality drivers. They are polite, good drivers and on schedule to pick-up"
+        },
+        {
+            "synonyms": ["1135"],
+            "value": "Accurate in the embark and disembark locations"
+        },
+        { "synonyms": ["1136"], "value": "fair and safe route planning" },
+        {
+            "synonyms": ["1137"],
+            "value": "Transparent and comprehensive drivers information. Rigorous profile check"
+        },
+        { "synonyms": ["1138"], "value": "Security features" },
+        { "synonyms": ["1139"], "value": "Safe trips" },
+        {
+            "synonyms": ["1140"],
+            "value": "Customer support team easy to contact"
+        },
+        {
+            "synonyms": ["1141"],
+            "value": "Customer support team with quick answer and efficient solution"
+        },
+        {
+            "synonyms": ["1142"],
+            "value": "Everyone have good comments about the app"
+        },
+        {
+            "synonyms": ["1143"],
+            "value": "It is taking actions to prevent coronavirus."
+        },
+        {
+            "synonyms": ["1144"],
+            "value": "Good price / offers / promotions / cheap"
+        },
+        { "synonyms": ["1145"], "value": "Others" },
+        {
+            "synonyms": ["1146"],
+            "value": "The price is high, not attractive promotion and arbitrary charges."
+        },
+        { "synonyms": ["1147"], "value": "Delay and loss of receipt." },
+        {
+            "synonyms": ["1148"],
+            "value": "The application is not professional."
+        },
+        {
+            "synonyms": ["1149"],
+            "value": "The application is not easy to use."
+        },
+        {
+            "synonyms": ["1150"],
+            "value": "It offers limited cars types and categories which do not meet my needs"
+        },
+        {
+            "synonyms": ["1151"],
+            "value": "The waiting time for my pick-up is too long"
+        },
+        {
+            "synonyms": ["1152"],
+            "value": "The trips are unconfortable. The cars are dirty and do not smell good."
+        },
+        {
+            "synonyms": ["1153"],
+            "value": "The trips are unconfortable. The cars are in bad conditions."
+        },
+        {
+            "synonyms": ["1154"],
+            "value": "Low quality drivers and services. The drivers are unpolite, they do not drive safelly and they take too long to pick-up"
+        },
+        {
+            "synonyms": ["1155"],
+            "value": "It is not accurate in the pick-up/drop-off locations"
+        },
+        {
+            "synonyms": ["1156"],
+            "value": "Hazardous route planning and with deviations"
+        },
+        {
+            "synonyms": ["1157"],
+            "value": "Incorrect/incomplete drivers information and lack of profile check"
+        },
+        {
+            "synonyms": ["1158"],
+            "value": "Safety features do not make the trips more safe."
+        },
+        { "synonyms": ["1159"], "value": "Unsafe trips" },
+        {
+            "synonyms": ["1160"],
+            "value": "Customer support service is difficult to contact"
+        },
+        {
+            "synonyms": ["1161"],
+            "value": "Customer support service takes too long to answer and the solution is not eficiente"
+        },
+        {
+            "synonyms": ["1162"],
+            "value": "Everyone is using the app. It is not necessary to recommend to others"
+        },
+        {
+            "synonyms": ["1163"],
+            "value": "Everyone talks negativelly about the app."
+        },
+        {
+            "synonyms": ["1164"],
+            "value": "It is not taking actions to prevent coronavirus."
+        },
+        {
+            "synonyms": ["1165"],
+            "value": "I have never use it / I don't use it (a lot)"
+        },
+        { "synonyms": ["1166"], "value": "Prefer other (Uber)" },
+        {
+            "synonyms": ["1167"],
+            "value": "Payment process / methods (various)"
+        },
+        {
+            "synonyms": ["1168"],
+            "value": "Low availability of drivers in my region"
+        },
+        { "synonyms": ["1169"], "value": "Bad experience" },
+        { "synonyms": ["1170"], "value": "Chinese brand" },
+        { "synonyms": ["1171"], "value": "Nothing" },
+        {
+            "synonyms": ["1172"],
+            "value": "Registration is very complicated or can not finish the registration"
+        },
+        {
+            "synonyms": ["1173"],
+            "value": "I couldn't register my Credit or Debit card"
+        },
+        {
+            "synonyms": ["1174"],
+            "value": "The app is complicated to use when ordering a service"
+        },
+        {
+            "synonyms": ["1175"],
+            "value": "The application has too much bugs / freezes / closes"
+        },
+        {
+            "synonyms": ["1176"],
+            "value": "The location system does not show mine or driver's exact location when ordering a service"
+        },
+        {
+            "synonyms": ["1177"],
+            "value": "It doesn't have enough drivers available"
+        },
+        {
+            "synonyms": ["1178"],
+            "value": "The cars take a long time to arrive"
+        },
+        { "synonyms": ["1179"], "value": "The drivers cancel my rides" },
+        {
+            "synonyms": ["1180"],
+            "value": "Drivers don’t pick up orders quickly"
+        },
+        { "synonyms": ["1181"], "value": "Wait times are too long" },
+        {
+            "synonyms": ["1182"],
+            "value": "It doesn't give me enough information about drivers"
+        },
+        {
+            "synonyms": ["1183"],
+            "value": "The cars in service are not the same ones as ordered"
+        },
+        {
+            "synonyms": ["1184"],
+            "value": "The cars are not in good condition (dirty, stinky, old, etc.)"
+        },
+        {
+            "synonyms": ["1185"],
+            "value": "It is too expensive / Higher than the price I am willing to bear"
+        },
+        {
+            "synonyms": ["1186"],
+            "value": "The price gets higher in rush hours"
+        },
+        { "synonyms": ["1187"], "value": "The cancellation fee is high" },
+        {
+            "synonyms": ["1188"],
+            "value": "It doesn’t offer the payment methods I like to use"
+        },
+        {
+            "synonyms": ["1189"],
+            "value": "It doesn’t offer routes to the destination I need"
+        },
+        {
+            "synonyms": ["1190"],
+            "value": "It doesn’t offer options that suit my needs (big trunk, bicycle hack, child safety seat, room for pets,etc.)"
+        },
+        {
+            "synonyms": ["1191"],
+            "value": "It doesn’t offer variety of service level (basic, executive, premium, etc.)"
+        },
+        {
+            "synonyms": ["1192"],
+            "value": "It doesn't have woman driver option"
+        },
+        { "synonyms": ["1193"], "value": "I cannot order my preferred driver" },
+        {
+            "synonyms": ["1194"],
+            "value": "It doesn’t offer me emergency options during or after the ride"
+        },
+        { "synonyms": ["1195"], "value": "It doesn’t offer promotions" },
+        { "synonyms": ["1196"], "value": "It offers few discount coupons" },
+        {
+            "synonyms": ["1197"],
+            "value": "The customer service doesn’t offer me the best solutions for my problems"
+        },
+        {
+            "synonyms": ["1198"],
+            "value": "It doesn’t have a fast customer service when I need support"
+        },
+        {
+            "synonyms": ["1199"],
+            "value": "The drivers in service are not matching the ones shown in the app"
+        },
+        {
+            "synonyms": ["1200"],
+            "value": "It is hard for me to meet the driver because pick-up location isn’t accurate"
+        },
+        { "synonyms": ["1201"], "value": "Fare cannot be split with others" },
+        { "synonyms": ["1202"], "value": "I prefer not to use Chinese brands" },
+        {
+            "synonyms": ["1203"],
+            "value": "I don’t want to share my personal data with them"
+        },
+        {
+            "synonyms": ["1204"],
+            "value": "I had a good promotion or discount code"
+        },
+        { "synonyms": ["1205"], "value": "I wanted to save money on fares" },
+        {
+            "synonyms": ["1206"],
+            "value": "Other ridesharing apps were surging at the time"
+        },
+        {
+            "synonyms": ["1207"],
+            "value": "No drivers were available on other ridesharing/taxi apps at the time"
+        },
+        {
+            "synonyms": ["1208"],
+            "value": "I had a bad experience on another ridesharing/taxi apps"
+        },
+        {
+            "synonyms": ["1209"],
+            "value": "I heard good things about from family/friends"
+        },
+        {
+            "synonyms": ["1210"],
+            "value": "I was sent a promotional code from a friend/family"
+        },
+        {
+            "synonyms": ["1211"],
+            "value": "I wanted more choice in ridesharing service"
+        },
+        {
+            "synonyms": ["1212"],
+            "value": "Because cares more for their drivers"
+        },
+        {
+            "synonyms": ["1213"],
+            "value": "Because charges their drivers a low commission"
+        },
+        {
+            "synonyms": ["1214"],
+            "value": "I was waiting too long for other ridesharing/taxi apps"
+        },
+        {
+            "synonyms": ["1215"],
+            "value": "I went to an event and it was the ridesharing partner"
+        },
+        {
+            "synonyms": ["1216"],
+            "value": "The content of advertisement is appealing to me"
+        },
+        { "synonyms": ["1217"], "value": "Referral from drivers" },
+        { "synonyms": ["1218"], "value": "I saw its advertising" },
+        {
+            "synonyms": ["1219"],
+            "value": "Registration is very complicated or cannot finish the registration"
+        },
+        { "synonyms": ["1220"], "value": "The drivers refuse to pick me up" },
+        {
+            "synonyms": ["1221"],
+            "value": "The drivers didn't provide decent service (e.g. helped me to move my luggage, provide water)"
+        },
+        {
+            "synonyms": ["1222"],
+            "value": "It is too expensive / Higher than the price I am willing to pay"
+        },
+        {
+            "synonyms": ["1223"],
+            "value": "I prefer other ridesharing/taxi apps"
+        },
+        {
+            "synonyms": ["1224"],
+            "value": "It doesn’t offer variety of service (Comfort, pool/shared, B2B service etc.)"
+        },
+        { "synonyms": ["1225"], "value": "I don’t like Chinese brands" },
+        { "synonyms": ["1226"], "value": "It is not safe" },
+        {
+            "synonyms": ["1227"],
+            "value": "I heard bad stories about its service"
+        },
+        {
+            "synonyms": ["1228"],
+            "value": "Other mobility APPs are safer within more preventive measures especially during the pandemic of novel Coronavirus (COVID-19)"
+        },
+        {
+            "synonyms": ["1229"],
+            "value": "It is limited by insufficient phone memory"
+        },
+        { "synonyms": ["1230"], "value": "The advertising is invasive" },
+        {
+            "synonyms": ["1231"],
+            "value": "Don’t offer me enough information about the drivers"
+        },
+        {
+            "synonyms": ["1232"],
+            "value": "APP functionality is not user-friendly"
+        },
+        { "synonyms": ["1233"], "value": "The app is not stable (e.g. crash)" },
+        { "synonyms": ["1234"], "value": "Drivers cancel several rides" },
+        {
+            "synonyms": ["1235"],
+            "value": "The navigation/ location system is not good (it cannot show my/driver location accurately, the suggested pick-up location is not accurate)"
+        },
+        {
+            "synonyms": ["1236"],
+            "value": "It doesn’t offer variety of service level (taxi, basic/lit, economy, select, pool/shared, premium, luxury, etc.)"
+        },
+        {
+            "synonyms": ["1237"],
+            "value": "The fare estimate is inaccurate and not close to final cost"
+        },
+        {
+            "synonyms": ["1238"],
+            "value": "It has price increase at peak times"
+        },
+        { "synonyms": ["1239"], "value": "The price has increased" },
+        {
+            "synonyms": ["1240"],
+            "value": "Less promotion and price are higher than before"
+        },
+        {
+            "synonyms": ["1241"],
+            "value": "Promotion is less attractive than other ridesharing brands"
+        },
+        { "synonyms": ["1242"], "value": "The promotion is not diverse" },
+        {
+            "synonyms": ["1243"],
+            "value": "The promotion is inconvenient to use"
+        },
+        {
+            "synonyms": ["1244"],
+            "value": "I already had problems with improper billing (double payment, billing a ride that wasn’t made and others)"
+        },
+        {
+            "synonyms": ["1245"],
+            "value": "It does not offer the payment method I like (i.e. cash, Paypal, credit cards, etc.)"
+        },
+        { "synonyms": ["1246"], "value": "Inconvenient to issue the invoice" },
+        { "synonyms": ["1247"], "value": "Cancellation fee is high" },
+        {
+            "synonyms": ["1248"],
+            "value": "It doesn’t offer me expected safety/emergency options during or after the ride"
+        },
+        {
+            "synonyms": ["1249"],
+            "value": "The attitude of customer service is poor"
+        },
+        {
+            "synonyms": ["1250"],
+            "value": "The response speed of customer service is slow"
+        },
+        {
+            "synonyms": ["1251"],
+            "value": "The problem-solving ability of customer service is poor"
+        },
+        {
+            "synonyms": ["1252"],
+            "value": "Its drivers don't dress or behave well."
+        },
+        {
+            "synonyms": ["1253"],
+            "value": "Drivers are not consistent with the information I see in the app"
+        },
+        {
+            "synonyms": ["1254"],
+            "value": "Drivers are not responsible (i.e. not show-up, not following the route, driving skill is not good etc.)"
+        },
+        {
+            "synonyms": ["1255"],
+            "value": "Drivers are rude or didn’t serve me well"
+        },
+        {
+            "synonyms": ["1256"],
+            "value": "Other mobility APPs are safer within more preventive measures"
+        },
+        { "synonyms": ["1257"], "value": "99" },
+        { "synonyms": ["1258"], "value": "Uber" },
+        {
+            "synonyms": ["1259"],
+            "value": "I have not taken any ride with security camera"
+        },
+        {
+            "synonyms": ["1260"],
+            "value": "Taxi, hailing on the street or via phone"
+        },
+        { "synonyms": ["1261"], "value": "Hitchhike app" },
+        { "synonyms": ["1262"], "value": "Bus" },
+        { "synonyms": ["1263"], "value": "Car as a driver" },
+        {
+            "synonyms": ["1264"],
+            "value": "Car as a passenger (excludes taxi and online ridesharing)"
+        },
+        { "synonyms": ["1265"], "value": "Train/Subway" },
+        { "synonyms": ["1266"], "value": "Tram / Ferry" },
+        { "synonyms": ["1267"], "value": "Self-owned bicycle" },
+        { "synonyms": ["1268"], "value": "Motorcycle" },
+        { "synonyms": ["1269"], "value": "Self-owned scooter" },
+        { "synonyms": ["1270"], "value": "Mototaxi" },
+        { "synonyms": ["1271"], "value": "None of the above" },
+        { "synonyms": ["1272"], "value": "Bike using a bike share app" },
+        { "synonyms": ["1273"], "value": "Metrobus/trolebus" },
+        { "synonyms": ["1274"], "value": "Collective scooter" },
+        { "synonyms": ["1275"], "value": "Private car" },
+        { "synonyms": ["1276"], "value": "On foot" },
+        { "synonyms": ["1277"], "value": "Self-owned electric bicycle" },
+        { "synonyms": ["1278"], "value": "Electric-bicycle-sharing apps" },
+        { "synonyms": ["1279"], "value": "Collective scooter apps" },
+        {
+            "synonyms": ["1280"],
+            "value": "Mobility apps (excluding hailing on the street)"
+        },
+        { "synonyms": ["1281"], "value": "None of the above fix exclusive" },
+        { "synonyms": ["1282"], "value": "Insurance" },
+        { "synonyms": ["1283"], "value": "Anonymous call" },
+        { "synonyms": ["1284"], "value": "Government collaboration" },
+        { "synonyms": ["1285"], "value": "24/7 Support" },
+        { "synonyms": ["1286"], "value": "Driver/Partner Background Check" },
+        { "synonyms": ["1287"], "value": "Driver/Partner facial recognition" },
+        { "synonyms": ["1288"], "value": "Hide address" },
+        { "synonyms": ["1289"], "value": "Intelligent models" },
+        { "synonyms": ["1290"], "value": "Un-match passenger" },
+        { "synonyms": ["1291"], "value": "Driver/Partner information" },
+        { "synonyms": ["1292"], "value": "Audio recording" },
+        { "synonyms": ["1293"], "value": "Safety Button" },
+        { "synonyms": ["1294"], "value": "Share your trip" },
+        { "synonyms": ["1295"], "value": "Trip monitoring" },
+        { "synonyms": ["1296"], "value": "Others (pls. Specify)" },
+        {
+            "synonyms": ["1297"],
+            "value": "Having in-app safety features and tools"
+        },
+        {
+            "synonyms": ["1298"],
+            "value": "Having detailed driver/partner information"
+        },
+        {
+            "synonyms": ["1299"],
+            "value": "Driver/partner follows the trip route"
+        },
+        {
+            "synonyms": ["1300"],
+            "value": "Riding with respectful drivers/partners"
+        },
+        {
+            "synonyms": ["1301"],
+            "value": "Having a driver/partner with good driving skills"
+        },
+        { "synonyms": ["1302"], "value": "Car being in optimal condition" },
+        {
+            "synonyms": ["1303"],
+            "value": "Having an easy experience while using the app"
+        },
+        {
+            "synonyms": ["1304"],
+            "value": "Having an effective process with customer service"
+        },
+        { "synonyms": ["1305"], "value": "Receiving rapid emergency support" },
+        {
+            "synonyms": ["1306"],
+            "value": "Having drivers/partners screened and with background"
+        },
+        {
+            "synonyms": ["1307"],
+            "value": "Knowing my personal data is being protected"
+        },
+        {
+            "synonyms": ["1308"],
+            "value": "Rideshare apps (excluding taxi apps)"
+        },
+        { "synonyms": ["1309"], "value": "Taxi (via an app)" },
+        { "synonyms": ["1310"], "value": "Undup E-hailing" },
+        { "synonyms": ["1311"], "value": "Undup Public translortation" },
+        { "synonyms": ["1312"], "value": "Undup Bike/moto/electric bike" },
+        {
+            "synonyms": ["1313"],
+            "value": "The brand has implemented comprehensive safety measures and protocols to ensure safe ride."
+        },
+        {
+            "synonyms": ["1314"],
+            "value": "Filter drivers well based on their driving skills"
+        },
+        { "synonyms": ["1315"], "value": "Drivers show professionalism" },
+        { "synonyms": ["1316"], "value": "Cars are clean and tidy" },
+        { "synonyms": ["1317"], "value": "Cars look safe enough" },
+        {
+            "synonyms": ["1318"],
+            "value": "The information of the car / plate / driver is consistent with that on the plat form"
+        },
+        {
+            "synonyms": ["1319"],
+            "value": "There are multiple security functions in the app"
+        },
+        {
+            "synonyms": ["1320"],
+            "value": "The location positioning / navigation function is accurate"
+        },
+        {
+            "synonyms": ["1321"],
+            "value": "Take active protective measures against COVID-19 (i.e health tips, vehicle disinfection, etc.),"
+        },
+        {
+            "synonyms": ["1322"],
+            "value": "Costs are so low that they compromise travel safety"
+        },
+        {
+            "synonyms": ["1323"],
+            "value": "It's easy to ask for a quick ride, especially in rush hours and remote areas"
+        },
+        {
+            "synonyms": ["1324"],
+            "value": "The customer service solve my problems quickly"
+        },
+        {
+            "synonyms": ["1325"],
+            "value": "Use a protected / secure payment system"
+        },
+        {
+            "synonyms": ["1326"],
+            "value": "I trust that they do not share or misuse my personal data"
+        },
+        { "synonyms": ["1327"], "value": "The brand is well-known / reliable" },
+        {
+            "synonyms": ["1328"],
+            "value": "There are no negative reports / comments about the brand"
+        },
+        {
+            "synonyms": ["1329"],
+            "value": "The brand is from European or American countries"
+        },
+        {
+            "synonyms": ["1330"],
+            "value": "The brand cares about society / gives back to society"
+        },
+        { "synonyms": ["1331"], "value": "Offers safety focused messages" }
     ]
 }
