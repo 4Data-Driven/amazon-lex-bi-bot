@@ -24,21 +24,34 @@ import bibot_config as bibot
 import bibot_helpers as helpers
 import bibot_userexits as userexits
 
-# SELECT (sum(f.resposta*f.final_weight)/sum(f.final_weight))*100 
-#     FROM fato f left join marca m on f.cod_marca = m.cod_marca
-#         left join atributo a on f.cod_det_atributo = a.cod_det_atributo
-#             WHERE m.marca like 'DiDi'
-#                 AND a.det_atributo like 'I feel safe when using its cars'
+# SELECT (SUM(f.resposta*f.final_weight)/SUM(f.final_weight))*100 FROM fato f
+#     LEFT JOIN marca m ON f.cod_marca = m.cod_marca
+#         LEFT JOIN atributo a ON f.cod_det_atribut = a.cod_det_atributo
+#             WHERE m.marca LIKE 'Uber'
+#                 AND a.det_atributo LIKE 'I feel safe when using its cars'
 
-TOP_SELECT  = "SELECT (SUM(f.resposta*f.final_weight)/SUM(f.final_weight))*100 percentage FROM fato f LEFT JOIN marca m ON f.cod_marca = m.cod_marca LEFT JOIN atributo a ON f.cod_det_atributo = a.cod_det_atributo"
-TOP_JOIN    = " WHERE m.marca LIKE {}"
-TOP_WHERE   = " AND LOWER({}) LIKE LOWER('%{}%') " 
-TOP_ORDERBY = " GROUP BY {} ORDER BY percentage desc" 
+TOP_SELECT = """
+    SELECT {}, ((SUM(f.resposta*f.final_weight)/SUM(f.final_weight))*100) porcentagem 
+        FROM fato f, atributo a, marca m, wave w  
+"""
+TOP_JOIN = """
+    WHERE f.cod_det_atribut = a.cod_det_atributo 
+        AND f.cod_marca = m.cod_marca 
+            AND f.cod_wave = w.cod_wave
+                AND f.resposta <> 9 AND f.resposta <> 10
+                    AND m.marca NOT LIKE 'Not_Apply'
+"""
+TOP_WHERE = """
+    AND LOWER({}) LIKE LOWER('%{}%')
+"""
+TOP_ORDERBY = """
+    GROUP BY {} 
+    ORDER BY porcentagem DESC
+""" 
 TOP_DEFAULT_COUNT = '5'
 
 logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
-
 
 def lambda_handler(event, context):
     logger.debug('<<BIBot>> Lex event info = ' + json.dumps(event))
@@ -128,7 +141,7 @@ def top_intent_handler(intent_request, session_attributes):
             {'contentType': 'PlainText', 'content': "Sorry, I don't know what you mean by " + slot_values['dimension']})
             
     # add JOIN clauses 
-    where_clause = TOP_JOIN.format(bibot.DIMENSIONS.get(dimension).get(slot_values.get('dimension')).get('column'))
+    where_clause = TOP_JOIN
 
     # add WHERE clause for each non empty slot
     for dimension in bibot.DIMENSIONS:
@@ -198,7 +211,7 @@ def top_intent_handler(intent_request, session_attributes):
     elif result_count == 1:
         response_string += ' was '
     else:
-        response_string += ' were '
+        response_string += ' were \n'
     
     # add the list of top X dimension values to the response text
     if result_count > 0:
@@ -208,7 +221,7 @@ def top_intent_handler(intent_request, session_attributes):
                 if counter > 1:
                     response_string += '; and ' if counter == result_count else '; '
                 if result_count > 1:
-                    response_string += str(counter) + ', '
+                    response_string += str(counter) + 'º '
                     
                 value = userexits.post_process_dimension_output(slot_values.get('dimension'), item['Data'][0]['VarCharValue'])
                 response_string += value
@@ -234,4 +247,3 @@ def top_intent_handler(intent_request, session_attributes):
     logger.debug('<<BIBot>> top_intent_handler() - sessions_attributes = %s, response = %s', session_attributes, {'contentType': 'PlainText','content': response_string})
 
     return helpers.close(session_attributes, 'Fulfilled', {'contentType': 'PlainText','content': response_string})   
-
