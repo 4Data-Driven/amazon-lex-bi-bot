@@ -3,918 +3,1029 @@
     "description": "Names of atributos in database",
     "valueSelectionStrategy": "TOP_RESOLUTION",
     "enumerationValues": [
-        { "synonyms": ["1001"], "value": "I feel safe when using its cars" },
-        { "synonyms": ["1002"], "value": "It is good value for money" },
-        { "synonyms": ["1003"], "value": "It has high quality services" },
-        { "synonyms": ["1004"], "value": "It offers comfortable ride" },
         {
-            "synonyms": ["1005"],
+            "synonyms": ["cod1001at"],
+            "value": "I feel safe when using its cars"
+        },
+        { "synonyms": ["cod1002at"], "value": "It is good value for money" },
+        { "synonyms": ["cod1003at"], "value": "It has high quality services" },
+        { "synonyms": ["cod1004at"], "value": "It offers comfortable ride" },
+        {
+            "synonyms": ["cod1005at"],
             "value": "It is cheaper than the other online ride-sharing/taxi apps"
         },
-        { "synonyms": ["1006"], "value": "It has attractive promotions" },
+        { "synonyms": ["cod1006at"], "value": "It has attractive promotions" },
         {
-            "synonyms": ["1007"],
+            "synonyms": ["cod1007at"],
             "value": "It has a variety of service level/car types which meet my needs"
         },
-        { "synonyms": ["1008"], "value": "It increases its drivers’ income" },
-        { "synonyms": ["1009"], "value": "It looks after its drivers" },
-        { "synonyms": ["1010"], "value": "It is customer focused" },
-        { "synonyms": ["1011"], "value": "It is friendly" },
-        { "synonyms": ["1012"], "value": "It is innovative" },
-        { "synonyms": ["1013"], "value": "It is reliable" },
-        { "synonyms": ["1014"], "value": "It makes my life easier" },
-        { "synonyms": ["1015"], "value": "It is professional" },
-        { "synonyms": ["1016"], "value": "It understands locals" },
         {
-            "synonyms": ["1017"],
+            "synonyms": ["cod1008at"],
+            "value": "It increases its drivers’ income"
+        },
+        { "synonyms": ["cod1009at"], "value": "It looks after its drivers" },
+        { "synonyms": ["cod1010at"], "value": "It is customer focused" },
+        { "synonyms": ["cod1011at"], "value": "It is friendly" },
+        { "synonyms": ["cod1012at"], "value": "It is innovative" },
+        { "synonyms": ["cod1013at"], "value": "It is reliable" },
+        { "synonyms": ["cod1014at"], "value": "It makes my life easier" },
+        { "synonyms": ["cod1015at"], "value": "It is professional" },
+        { "synonyms": ["cod1016at"], "value": "It understands locals" },
+        {
+            "synonyms": ["cod1017at"],
             "value": "It cares about society/ It gives back to society"
         },
-        { "synonyms": ["1018"], "value": "I relate to its values" },
-        { "synonyms": ["1019"], "value": "It offers fun and enjoyable ride" },
+        { "synonyms": ["cod1018at"], "value": "I relate to its values" },
         {
-            "synonyms": ["1020"],
+            "synonyms": ["cod1019at"],
+            "value": "It offers fun and enjoyable ride"
+        },
+        {
+            "synonyms": ["cod1020at"],
             "value": "Everyone is talking about it positively"
         },
-        { "synonyms": ["1021"], "value": "It offers something new" },
+        { "synonyms": ["cod1021at"], "value": "It offers something new" },
         {
-            "synonyms": ["1022"],
+            "synonyms": ["cod1022at"],
             "value": "It’s in the leading position in transport / mobility"
         },
-        { "synonyms": ["1023"], "value": "It cares about improving traffic" },
         {
-            "synonyms": ["1024"],
+            "synonyms": ["cod1023at"],
+            "value": "It cares about improving traffic"
+        },
+        {
+            "synonyms": ["cod1024at"],
             "value": "It’s a brand that offer more discount coupons"
         },
-        { "synonyms": ["1025"], "value": "There’s benefits program I Like" },
-        { "synonyms": ["1026"], "value": "It’s a brand that I’m proud to use" },
-        { "synonyms": ["1027"], "value": "The app uses a high-end technology" },
-        { "synonyms": ["1028"], "value": "None of above" },
-        { "synonyms": ["1029"], "value": "Not answer" },
         {
-            "synonyms": ["1030"],
+            "synonyms": ["cod1025at"],
+            "value": "There’s benefits program I Like"
+        },
+        {
+            "synonyms": ["cod1026at"],
+            "value": "It’s a brand that I’m proud to use"
+        },
+        {
+            "synonyms": ["cod1027at"],
+            "value": "The app uses a high-end technology"
+        },
+        { "synonyms": ["cod1028at"], "value": "None of above" },
+        { "synonyms": ["cod1029at"], "value": "Not answer" },
+        {
+            "synonyms": ["cod1030at"],
             "value": "It's a brand that thinks about the user"
         },
         {
-            "synonyms": ["1031"],
+            "synonyms": ["cod1031at"],
             "value": "It is a brand that offers more benefits / incentives"
         },
-        { "synonyms": ["1032"], "value": "The app is easy to register" },
+        { "synonyms": ["cod1032at"], "value": "The app is easy to register" },
         {
-            "synonyms": ["1033"],
+            "synonyms": ["cod1033at"],
             "value": "The app is stable (i.e. does not crash easily)"
         },
         {
-            "synonyms": ["1034"],
+            "synonyms": ["cod1034at"],
             "value": "The location system in App is accurate"
         },
         {
-            "synonyms": ["1035"],
+            "synonyms": ["cod1035at"],
             "value": "Destination searching in App is accurate."
         },
         {
-            "synonyms": ["1036"],
+            "synonyms": ["cod1036at"],
             "value": "Searching function in App is intelligent."
         },
-        { "synonyms": ["1037"], "value": "My order is picked up quickly" },
-        { "synonyms": ["1038"], "value": "Always succeed in hailing a car" },
+        { "synonyms": ["cod1037at"], "value": "My order is picked up quickly" },
         {
-            "synonyms": ["1039"],
+            "synonyms": ["cod1038at"],
+            "value": "Always succeed in hailing a car"
+        },
+        {
+            "synonyms": ["cod1039at"],
             "value": "Estimated wait time for pickup is reasonable"
         },
-        { "synonyms": ["1040"], "value": "Wait times are accurate" },
+        { "synonyms": ["cod1040at"], "value": "Wait times are accurate" },
         {
-            "synonyms": ["1041"],
+            "synonyms": ["cod1041at"],
             "value": "The app recommends a reasonable (i.e. easy to find) pick-up location"
         },
         {
-            "synonyms": ["1042"],
+            "synonyms": ["cod1042at"],
             "value": "Walking navigation in App is accurate."
         },
-        { "synonyms": ["1043"], "value": "The driver always shows up" },
+        { "synonyms": ["cod1043at"], "value": "The driver always shows up" },
         {
-            "synonyms": ["1044"],
+            "synonyms": ["cod1044at"],
             "value": "The driver shows up at the expected time of arrival"
         },
         {
-            "synonyms": ["1045"],
+            "synonyms": ["cod1045at"],
             "value": "The driver shows up at the designated pick-up point"
         },
         {
-            "synonyms": ["1046"],
+            "synonyms": ["cod1046at"],
             "value": "The driver dresses and behaves appropriately"
         },
         {
-            "synonyms": ["1047"],
+            "synonyms": ["cod1047at"],
             "value": "The driver doesn't detour on purpose"
         },
         {
-            "synonyms": ["1048"],
+            "synonyms": ["cod1048at"],
             "value": "The driver displays a safe and responsible driving manner"
         },
         {
-            "synonyms": ["1049"],
+            "synonyms": ["cod1049at"],
             "value": "The driver has good service attitude"
         },
-        { "synonyms": ["1050"], "value": "The driver charges reasonably" },
+        { "synonyms": ["cod1050at"], "value": "The driver charges reasonably" },
         {
-            "synonyms": ["1051"],
+            "synonyms": ["cod1051at"],
             "value": "The driver does not force me into giving good review"
         },
         {
-            "synonyms": ["1052"],
+            "synonyms": ["cod1052at"],
             "value": "The cancellation rules are reasonable"
         },
         {
-            "synonyms": ["1053"],
+            "synonyms": ["cod1053at"],
             "value": "The app provides reasonable route planning"
         },
         {
-            "synonyms": ["1054"],
+            "synonyms": ["cod1054at"],
             "value": "The app provides clear vehicle & driver information before boarding"
         },
         {
-            "synonyms": ["1055"],
+            "synonyms": ["cod1055at"],
             "value": "The driver appears to be consistent as per information provided by the app"
         },
-        { "synonyms": ["1056"], "value": "Cars are neat & tidy" },
+        { "synonyms": ["cod1056at"], "value": "Cars are neat & tidy" },
         {
-            "synonyms": ["1057"],
+            "synonyms": ["cod1057at"],
             "value": "The app estimates the fare accurately"
         },
         {
-            "synonyms": ["1058"],
+            "synonyms": ["cod1058at"],
             "value": "The rule of surging at peak time is reasonable"
         },
-        { "synonyms": ["1059"], "value": "Fare breakdown is reasonable" },
+        { "synonyms": ["cod1059at"], "value": "Fare breakdown is reasonable" },
         {
-            "synonyms": ["1060"],
+            "synonyms": ["cod1060at"],
             "value": "The billing is clear (i.e. itemized, complete, etc.)"
         },
         {
-            "synonyms": ["1061"],
+            "synonyms": ["cod1061at"],
             "value": "The promotion is diverse and practical"
         },
         {
-            "synonyms": ["1062"],
+            "synonyms": ["cod1062at"],
             "value": "The payment modes are versatile and easy to use"
         },
         {
-            "synonyms": ["1063"],
+            "synonyms": ["cod1063at"],
             "value": "The app allows me to issue invoice easily"
         },
         {
-            "synonyms": ["1064"],
+            "synonyms": ["cod1064at"],
             "value": "The customer service is able to solve my problems quickly"
         },
         {
-            "synonyms": ["1065"],
+            "synonyms": ["cod1065at"],
             "value": "The customer service displays good attitude"
         },
-        { "synonyms": ["1066"], "value": "The app is easy simple to use" },
+        { "synonyms": ["cod1066at"], "value": "The app is easy simple to use" },
         {
-            "synonyms": ["1067"],
+            "synonyms": ["cod1067at"],
             "value": "It’s easy to know where things are in the app"
         },
-        { "synonyms": ["1068"], "value": "The drivers use mask" },
-        { "synonyms": ["1069"], "value": "The cars are disinfected" },
+        { "synonyms": ["cod1068at"], "value": "The drivers use mask" },
+        { "synonyms": ["cod1069at"], "value": "The cars are disinfected" },
         {
-            "synonyms": ["1070"],
+            "synonyms": ["cod1070at"],
             "value": "There is hand sanitizer in gel available in the cars."
         },
         {
-            "synonyms": ["1071"],
+            "synonyms": ["cod1071at"],
             "value": "The language and vocabulary used in the app are easy to understand"
         },
         {
-            "synonyms": ["1072"],
+            "synonyms": ["cod1072at"],
             "value": "Thay have a loyalty program that I like"
         },
         {
-            "synonyms": ["1073"],
+            "synonyms": ["cod1073at"],
             "value": "It has a monthly subscription program that offers me more advantages"
         },
         {
-            "synonyms": ["1074"],
+            "synonyms": ["cod1074at"],
             "value": "The information is easy to understand"
         },
-        { "synonyms": ["1075"], "value": "The app’s visual is attractive" },
         {
-            "synonyms": ["1076"],
+            "synonyms": ["cod1075at"],
+            "value": "The app’s visual is attractive"
+        },
+        {
+            "synonyms": ["cod1076at"],
             "value": "The app has a intuitive navigability"
         },
         {
-            "synonyms": ["1077"],
+            "synonyms": ["cod1077at"],
             "value": "The app informs me all I need to know about my ride and the driver"
         },
         {
-            "synonyms": ["1078"],
+            "synonyms": ["cod1078at"],
             "value": "The texts, in general, are easy to read (the fonts and sizes are appropriate)"
         },
-        { "synonyms": ["1079"], "value": "The colors in the app are nice" },
         {
-            "synonyms": ["1080"],
+            "synonyms": ["cod1079at"],
+            "value": "The colors in the app are nice"
+        },
+        {
+            "synonyms": ["cod1080at"],
             "value": "The app has cool graphics (icons and images)"
         },
         {
-            "synonyms": ["1081"],
+            "synonyms": ["cod1081at"],
             "value": "I can complete any actions in app quickly"
         },
         {
-            "synonyms": ["1082"],
+            "synonyms": ["cod1082at"],
             "value": "The features are intuitive and information is easy to find"
         },
-        { "synonyms": ["1083"], "value": "Learning to use the app is easy" },
         {
-            "synonyms": ["1084"],
+            "synonyms": ["cod1083at"],
+            "value": "Learning to use the app is easy"
+        },
+        {
+            "synonyms": ["cod1084at"],
             "value": "This app gives clear, easy-to-follow directions at every step"
         },
-        { "synonyms": ["1085"], "value": "The app design is clean and simple" },
-        { "synonyms": ["1086"], "value": "The usability of the app is smart" },
-        { "synonyms": ["1087"], "value": "The app feels friendly" },
-        { "synonyms": ["1088"], "value": "This app feels reliable" },
         {
-            "synonyms": ["1089"],
+            "synonyms": ["cod1085at"],
+            "value": "The app design is clean and simple"
+        },
+        {
+            "synonyms": ["cod1086at"],
+            "value": "The usability of the app is smart"
+        },
+        { "synonyms": ["cod1087at"], "value": "The app feels friendly" },
+        { "synonyms": ["cod1088at"], "value": "This app feels reliable" },
+        {
+            "synonyms": ["cod1089at"],
             "value": "The driver does not play the phone while driving"
         },
-        { "synonyms": ["1090"], "value": "The driver does not harass me" },
+        { "synonyms": ["cod1090at"], "value": "The driver does not harass me" },
         {
-            "synonyms": ["1091"],
+            "synonyms": ["cod1091at"],
             "value": "The temperature inside the car is comfortable"
         },
-        { "synonyms": ["1092"], "value": "Promotion is diverse and practical" },
-        { "synonyms": ["1093"], "value": "The driver uses GPS properly" },
         {
-            "synonyms": ["1094"],
+            "synonyms": ["cod1092at"],
+            "value": "Promotion is diverse and practical"
+        },
+        { "synonyms": ["cod1093at"], "value": "The driver uses GPS properly" },
+        {
+            "synonyms": ["cod1094at"],
             "value": "The app is complete (in terms of functions/features)"
         },
-        { "synonyms": ["1095"], "value": "The app is easy to use" },
+        { "synonyms": ["cod1095at"], "value": "The app is easy to use" },
         {
-            "synonyms": ["1096"],
+            "synonyms": ["cod1096at"],
             "value": "The app provides different ride hailing services depending on my need"
         },
         {
-            "synonyms": ["1097"],
+            "synonyms": ["cod1097at"],
             "value": "The app shows clearly the process of finding me a driver."
         },
         {
-            "synonyms": ["1098"],
+            "synonyms": ["cod1098at"],
             "value": "The app provides efficient ways to contact the drivers while waiting"
         },
         {
-            "synonyms": ["1099"],
+            "synonyms": ["cod1099at"],
             "value": "The driver is easy to locate once he/she arrives to the pick-up point"
         },
         {
-            "synonyms": ["1100"],
+            "synonyms": ["cod1100at"],
             "value": "The driver always drops me off at the right destination"
         },
         {
-            "synonyms": ["1101"],
+            "synonyms": ["cod1101at"],
             "value": "Walking navigation in App is accurate. (It can lead me to the pickup point"
         },
-        { "synonyms": ["1102"], "value": "Share your route with contacts" },
-        { "synonyms": ["1103"], "value": "Trusted contacts" },
-        { "synonyms": ["1104"], "value": "In-app emergency assistance button" },
         {
-            "synonyms": ["1105"],
+            "synonyms": ["cod1102at"],
+            "value": "Share your route with contacts"
+        },
+        { "synonyms": ["cod1103at"], "value": "Trusted contacts" },
+        {
+            "synonyms": ["cod1104at"],
+            "value": "In-app emergency assistance button"
+        },
+        {
+            "synonyms": ["cod1105at"],
             "value": "Safety center for key safety information"
         },
-        { "synonyms": ["1106"], "value": "Background checks for drivers" },
-        { "synonyms": ["1107"], "value": "Facial recognition of drivers" },
+        { "synonyms": ["cod1106at"], "value": "Background checks for drivers" },
+        { "synonyms": ["cod1107at"], "value": "Facial recognition of drivers" },
         {
-            "synonyms": ["1108"],
+            "synonyms": ["cod1108at"],
             "value": "Phone number anonymization during calls to the driver"
         },
-        { "synonyms": ["1109"], "value": "Real-time monitoring of rides" },
-        { "synonyms": ["1110"], "value": "Emergency center 24 hours a day" },
-        { "synonyms": ["1111"], "value": "Accident (insurance) protection" },
-        { "synonyms": ["1112"], "value": "Number of rides and drivers note" },
-        { "synonyms": ["1113"], "value": "Training about rules for drivers" },
-        { "synonyms": ["1114"], "value": "Driver information in the app" },
-        { "synonyms": ["1115"], "value": "Measures to prevent Coronavirus" },
+        { "synonyms": ["cod1109at"], "value": "Real-time monitoring of rides" },
         {
-            "synonyms": ["1116"],
+            "synonyms": ["cod1110at"],
+            "value": "Emergency center 24 hours a day"
+        },
+        {
+            "synonyms": ["cod1111at"],
+            "value": "Accident (insurance) protection"
+        },
+        {
+            "synonyms": ["cod1112at"],
+            "value": "Number of rides and drivers note"
+        },
+        {
+            "synonyms": ["cod1113at"],
+            "value": "Training about rules for drivers"
+        },
+        { "synonyms": ["cod1114at"], "value": "Driver information in the app" },
+        {
+            "synonyms": ["cod1115at"],
+            "value": "Measures to prevent Coronavirus"
+        },
+        {
+            "synonyms": ["cod1116at"],
             "value": "Security camera with emergency button"
         },
         {
-            "synonyms": ["1117"],
+            "synonyms": ["cod1117at"],
             "value": "Monitoring of races in case of unexpected stoppage or longer than expected race duration"
         },
         {
-            "synonyms": ["1118"],
+            "synonyms": ["cod1118at"],
             "value": "Audio recording function during the race for safety purposes"
         },
         {
-            "synonyms": ["1119"],
+            "synonyms": ["cod1119at"],
             "value": "Route sharing with trusted contacts via SMS, Whatsapp or app"
         },
         {
-            "synonyms": ["1120"],
+            "synonyms": ["cod1120at"],
             "value": "Inclusion of a trusted contact to share the route of my trip"
         },
         {
-            "synonyms": ["1121"],
+            "synonyms": ["cod1121at"],
             "value": "Anonymous phone number for the driver if the passenger calls via the app"
         },
         {
-            "synonyms": ["1122"],
+            "synonyms": ["cod1122at"],
             "value": "Emergency button to call the police"
         },
         {
-            "synonyms": ["1123"],
+            "synonyms": ["cod1123at"],
             "value": "Security Center available 24 hours for passengers in case of incidents or accidents"
         },
         {
-            "synonyms": ["1124"],
+            "synonyms": ["cod1124at"],
             "value": "Block driver function, if you do not want him to no longer receive your races"
         },
         {
-            "synonyms": ["1125"],
+            "synonyms": ["cod1125at"],
             "value": "Security camera that monitor the trip"
         },
         {
-            "synonyms": ["1126"],
+            "synonyms": ["cod1126at"],
             "value": "Checking the driver's background to make sure they have no criminal record"
         },
         {
-            "synonyms": ["1127"],
+            "synonyms": ["cod1127at"],
             "value": "Interface that offers an optimized experience of access to the security features of the application"
         },
-        { "synonyms": ["1128"], "value": "The application is professional" },
-        { "synonyms": ["1129"], "value": "The application is easy to use" },
         {
-            "synonyms": ["1130"],
+            "synonyms": ["cod1128at"],
+            "value": "The application is professional"
+        },
+        {
+            "synonyms": ["cod1129at"],
+            "value": "The application is easy to use"
+        },
+        {
+            "synonyms": ["cod1130at"],
             "value": "It offers different car types and categories which meet my needs"
         },
         {
-            "synonyms": ["1131"],
+            "synonyms": ["cod1131at"],
             "value": "The waiting time until my boarding is very short"
         },
         {
-            "synonyms": ["1132"],
+            "synonyms": ["cod1132at"],
             "value": "The trips are confortable. The cars are clean and smell good"
         },
         {
-            "synonyms": ["1133"],
+            "synonyms": ["cod1133at"],
             "value": "The trips are confortable. The cars are high quality"
         },
         {
-            "synonyms": ["1134"],
+            "synonyms": ["cod1134at"],
             "value": "High quality drivers. They are polite, good drivers and on schedule to pick-up"
         },
         {
-            "synonyms": ["1135"],
+            "synonyms": ["cod1135at"],
             "value": "Accurate in the embark and disembark locations"
         },
-        { "synonyms": ["1136"], "value": "fair and safe route planning" },
+        { "synonyms": ["cod1136at"], "value": "fair and safe route planning" },
         {
-            "synonyms": ["1137"],
+            "synonyms": ["cod1137at"],
             "value": "Transparent and comprehensive drivers information. Rigorous profile check"
         },
-        { "synonyms": ["1138"], "value": "Security features" },
-        { "synonyms": ["1139"], "value": "Safe trips" },
+        { "synonyms": ["cod1138at"], "value": "Security features" },
+        { "synonyms": ["cod1139at"], "value": "Safe trips" },
         {
-            "synonyms": ["1140"],
+            "synonyms": ["cod1140at"],
             "value": "Customer support team easy to contact"
         },
         {
-            "synonyms": ["1141"],
+            "synonyms": ["cod1141at"],
             "value": "Customer support team with quick answer and efficient solution"
         },
         {
-            "synonyms": ["1142"],
+            "synonyms": ["cod1142at"],
             "value": "Everyone have good comments about the app"
         },
         {
-            "synonyms": ["1143"],
+            "synonyms": ["cod1143at"],
             "value": "It is taking actions to prevent coronavirus."
         },
         {
-            "synonyms": ["1144"],
+            "synonyms": ["cod1144at"],
             "value": "Good price / offers / promotions / cheap"
         },
-        { "synonyms": ["1145"], "value": "Others" },
+        { "synonyms": ["cod1145at"], "value": "Others" },
         {
-            "synonyms": ["1146"],
+            "synonyms": ["cod1146at"],
             "value": "The price is high, not attractive promotion and arbitrary charges."
         },
-        { "synonyms": ["1147"], "value": "Delay and loss of receipt." },
+        { "synonyms": ["cod1147at"], "value": "Delay and loss of receipt." },
         {
-            "synonyms": ["1148"],
+            "synonyms": ["cod1148at"],
             "value": "The application is not professional."
         },
         {
-            "synonyms": ["1149"],
+            "synonyms": ["cod1149at"],
             "value": "The application is not easy to use."
         },
         {
-            "synonyms": ["1150"],
+            "synonyms": ["cod1150at"],
             "value": "It offers limited cars types and categories which do not meet my needs"
         },
         {
-            "synonyms": ["1151"],
+            "synonyms": ["cod1151at"],
             "value": "The waiting time for my pick-up is too long"
         },
         {
-            "synonyms": ["1152"],
+            "synonyms": ["cod1152at"],
             "value": "The trips are unconfortable. The cars are dirty and do not smell good."
         },
         {
-            "synonyms": ["1153"],
+            "synonyms": ["cod1153at"],
             "value": "The trips are unconfortable. The cars are in bad conditions."
         },
         {
-            "synonyms": ["1154"],
+            "synonyms": ["cod1154at"],
             "value": "Low quality drivers and services. The drivers are unpolite, they do not drive safelly and they take too long to pick-up"
         },
         {
-            "synonyms": ["1155"],
+            "synonyms": ["cod1155at"],
             "value": "It is not accurate in the pick-up/drop-off locations"
         },
         {
-            "synonyms": ["1156"],
+            "synonyms": ["cod1156at"],
             "value": "Hazardous route planning and with deviations"
         },
         {
-            "synonyms": ["1157"],
+            "synonyms": ["cod1157at"],
             "value": "Incorrect/incomplete drivers information and lack of profile check"
         },
         {
-            "synonyms": ["1158"],
+            "synonyms": ["cod1158at"],
             "value": "Safety features do not make the trips more safe."
         },
-        { "synonyms": ["1159"], "value": "Unsafe trips" },
+        { "synonyms": ["cod1159at"], "value": "Unsafe trips" },
         {
-            "synonyms": ["1160"],
+            "synonyms": ["cod1160at"],
             "value": "Customer support service is difficult to contact"
         },
         {
-            "synonyms": ["1161"],
+            "synonyms": ["cod1161at"],
             "value": "Customer support service takes too long to answer and the solution is not eficiente"
         },
         {
-            "synonyms": ["1162"],
+            "synonyms": ["cod1162at"],
             "value": "Everyone is using the app. It is not necessary to recommend to others"
         },
         {
-            "synonyms": ["1163"],
+            "synonyms": ["cod1163at"],
             "value": "Everyone talks negativelly about the app."
         },
         {
-            "synonyms": ["1164"],
+            "synonyms": ["cod1164at"],
             "value": "It is not taking actions to prevent coronavirus."
         },
         {
-            "synonyms": ["1165"],
+            "synonyms": ["cod1165at"],
             "value": "I have never use it / I don't use it (a lot)"
         },
-        { "synonyms": ["1166"], "value": "Prefer other (Uber)" },
+        { "synonyms": ["cod1166at"], "value": "Prefer other (Uber)" },
         {
-            "synonyms": ["1167"],
+            "synonyms": ["cod1167at"],
             "value": "Payment process / methods (various)"
         },
         {
-            "synonyms": ["1168"],
+            "synonyms": ["cod1168at"],
             "value": "Low availability of drivers in my region"
         },
-        { "synonyms": ["1169"], "value": "Bad experience" },
-        { "synonyms": ["1170"], "value": "Chinese brand" },
-        { "synonyms": ["1171"], "value": "Nothing" },
+        { "synonyms": ["cod1169at"], "value": "Bad experience" },
+        { "synonyms": ["cod1170at"], "value": "Chinese brand" },
+        { "synonyms": ["cod1171at"], "value": "Nothing" },
         {
-            "synonyms": ["1172"],
+            "synonyms": ["cod1172at"],
             "value": "Registration is very complicated or can not finish the registration"
         },
         {
-            "synonyms": ["1173"],
+            "synonyms": ["cod1173at"],
             "value": "I couldn't register my Credit or Debit card"
         },
         {
-            "synonyms": ["1174"],
+            "synonyms": ["cod1174at"],
             "value": "The app is complicated to use when ordering a service"
         },
         {
-            "synonyms": ["1175"],
+            "synonyms": ["cod1175at"],
             "value": "The application has too much bugs / freezes / closes"
         },
         {
-            "synonyms": ["1176"],
+            "synonyms": ["cod1176at"],
             "value": "The location system does not show mine or driver's exact location when ordering a service"
         },
         {
-            "synonyms": ["1177"],
+            "synonyms": ["cod1177at"],
             "value": "It doesn't have enough drivers available"
         },
         {
-            "synonyms": ["1178"],
+            "synonyms": ["cod1178at"],
             "value": "The cars take a long time to arrive"
         },
-        { "synonyms": ["1179"], "value": "The drivers cancel my rides" },
+        { "synonyms": ["cod1179at"], "value": "The drivers cancel my rides" },
         {
-            "synonyms": ["1180"],
+            "synonyms": ["cod1180at"],
             "value": "Drivers don’t pick up orders quickly"
         },
-        { "synonyms": ["1181"], "value": "Wait times are too long" },
+        { "synonyms": ["cod1181at"], "value": "Wait times are too long" },
         {
-            "synonyms": ["1182"],
+            "synonyms": ["cod1182at"],
             "value": "It doesn't give me enough information about drivers"
         },
         {
-            "synonyms": ["1183"],
+            "synonyms": ["cod1183at"],
             "value": "The cars in service are not the same ones as ordered"
         },
         {
-            "synonyms": ["1184"],
+            "synonyms": ["cod1184at"],
             "value": "The cars are not in good condition (dirty, stinky, old, etc.)"
         },
         {
-            "synonyms": ["1185"],
+            "synonyms": ["cod1185at"],
             "value": "It is too expensive / Higher than the price I am willing to bear"
         },
         {
-            "synonyms": ["1186"],
+            "synonyms": ["cod1186at"],
             "value": "The price gets higher in rush hours"
         },
-        { "synonyms": ["1187"], "value": "The cancellation fee is high" },
+        { "synonyms": ["cod1187at"], "value": "The cancellation fee is high" },
         {
-            "synonyms": ["1188"],
+            "synonyms": ["cod1188at"],
             "value": "It doesn’t offer the payment methods I like to use"
         },
         {
-            "synonyms": ["1189"],
+            "synonyms": ["cod1189at"],
             "value": "It doesn’t offer routes to the destination I need"
         },
         {
-            "synonyms": ["1190"],
+            "synonyms": ["cod1190at"],
             "value": "It doesn’t offer options that suit my needs (big trunk, bicycle hack, child safety seat, room for pets,etc.)"
         },
         {
-            "synonyms": ["1191"],
+            "synonyms": ["cod1191at"],
             "value": "It doesn’t offer variety of service level (basic, executive, premium, etc.)"
         },
         {
-            "synonyms": ["1192"],
+            "synonyms": ["cod1192at"],
             "value": "It doesn't have woman driver option"
         },
-        { "synonyms": ["1193"], "value": "I cannot order my preferred driver" },
         {
-            "synonyms": ["1194"],
+            "synonyms": ["cod1193at"],
+            "value": "I cannot order my preferred driver"
+        },
+        {
+            "synonyms": ["cod1194at"],
             "value": "It doesn’t offer me emergency options during or after the ride"
         },
-        { "synonyms": ["1195"], "value": "It doesn’t offer promotions" },
-        { "synonyms": ["1196"], "value": "It offers few discount coupons" },
+        { "synonyms": ["cod1195at"], "value": "It doesn’t offer promotions" },
         {
-            "synonyms": ["1197"],
+            "synonyms": ["cod1196at"],
+            "value": "It offers few discount coupons"
+        },
+        {
+            "synonyms": ["cod1197at"],
             "value": "The customer service doesn’t offer me the best solutions for my problems"
         },
         {
-            "synonyms": ["1198"],
+            "synonyms": ["cod1198at"],
             "value": "It doesn’t have a fast customer service when I need support"
         },
         {
-            "synonyms": ["1199"],
+            "synonyms": ["cod1199at"],
             "value": "The drivers in service are not matching the ones shown in the app"
         },
         {
-            "synonyms": ["1200"],
+            "synonyms": ["cod1200at"],
             "value": "It is hard for me to meet the driver because pick-up location isn’t accurate"
         },
-        { "synonyms": ["1201"], "value": "Fare cannot be split with others" },
-        { "synonyms": ["1202"], "value": "I prefer not to use Chinese brands" },
         {
-            "synonyms": ["1203"],
+            "synonyms": ["cod1201at"],
+            "value": "Fare cannot be split with others"
+        },
+        {
+            "synonyms": ["cod1202at"],
+            "value": "I prefer not to use Chinese brands"
+        },
+        {
+            "synonyms": ["cod1203at"],
             "value": "I don’t want to share my personal data with them"
         },
         {
-            "synonyms": ["1204"],
+            "synonyms": ["cod1204at"],
             "value": "I had a good promotion or discount code"
         },
-        { "synonyms": ["1205"], "value": "I wanted to save money on fares" },
         {
-            "synonyms": ["1206"],
+            "synonyms": ["cod1205at"],
+            "value": "I wanted to save money on fares"
+        },
+        {
+            "synonyms": ["cod1206at"],
             "value": "Other ridesharing apps were surging at the time"
         },
         {
-            "synonyms": ["1207"],
+            "synonyms": ["cod1207at"],
             "value": "No drivers were available on other ridesharing/taxi apps at the time"
         },
         {
-            "synonyms": ["1208"],
+            "synonyms": ["cod1208at"],
             "value": "I had a bad experience on another ridesharing/taxi apps"
         },
         {
-            "synonyms": ["1209"],
+            "synonyms": ["cod1209at"],
             "value": "I heard good things about from family/friends"
         },
         {
-            "synonyms": ["1210"],
+            "synonyms": ["cod1210at"],
             "value": "I was sent a promotional code from a friend/family"
         },
         {
-            "synonyms": ["1211"],
+            "synonyms": ["cod1211at"],
             "value": "I wanted more choice in ridesharing service"
         },
         {
-            "synonyms": ["1212"],
+            "synonyms": ["cod1212at"],
             "value": "Because cares more for their drivers"
         },
         {
-            "synonyms": ["1213"],
+            "synonyms": ["cod1213at"],
             "value": "Because charges their drivers a low commission"
         },
         {
-            "synonyms": ["1214"],
+            "synonyms": ["cod1214at"],
             "value": "I was waiting too long for other ridesharing/taxi apps"
         },
         {
-            "synonyms": ["1215"],
+            "synonyms": ["cod1215at"],
             "value": "I went to an event and it was the ridesharing partner"
         },
         {
-            "synonyms": ["1216"],
+            "synonyms": ["cod1216at"],
             "value": "The content of advertisement is appealing to me"
         },
-        { "synonyms": ["1217"], "value": "Referral from drivers" },
-        { "synonyms": ["1218"], "value": "I saw its advertising" },
+        { "synonyms": ["cod1217at"], "value": "Referral from drivers" },
+        { "synonyms": ["cod1218at"], "value": "I saw its advertising" },
         {
-            "synonyms": ["1219"],
+            "synonyms": ["cod1219at"],
             "value": "Registration is very complicated or cannot finish the registration"
         },
-        { "synonyms": ["1220"], "value": "The drivers refuse to pick me up" },
         {
-            "synonyms": ["1221"],
+            "synonyms": ["cod1220at"],
+            "value": "The drivers refuse to pick me up"
+        },
+        {
+            "synonyms": ["cod1221at"],
             "value": "The drivers didn't provide decent service (e.g. helped me to move my luggage, provide water)"
         },
         {
-            "synonyms": ["1222"],
+            "synonyms": ["cod1222at"],
             "value": "It is too expensive / Higher than the price I am willing to pay"
         },
         {
-            "synonyms": ["1223"],
+            "synonyms": ["cod1223at"],
             "value": "I prefer other ridesharing/taxi apps"
         },
         {
-            "synonyms": ["1224"],
+            "synonyms": ["cod1224at"],
             "value": "It doesn’t offer variety of service (Comfort, pool/shared, B2B service etc.)"
         },
-        { "synonyms": ["1225"], "value": "I don’t like Chinese brands" },
-        { "synonyms": ["1226"], "value": "It is not safe" },
+        { "synonyms": ["cod1225at"], "value": "I don’t like Chinese brands" },
+        { "synonyms": ["cod1226at"], "value": "It is not safe" },
         {
-            "synonyms": ["1227"],
+            "synonyms": ["cod1227at"],
             "value": "I heard bad stories about its service"
         },
         {
-            "synonyms": ["1228"],
+            "synonyms": ["cod1228at"],
             "value": "Other mobility APPs are safer within more preventive measures especially during the pandemic of novel Coronavirus (COVID-19)"
         },
         {
-            "synonyms": ["1229"],
+            "synonyms": ["cod1229at"],
             "value": "It is limited by insufficient phone memory"
         },
-        { "synonyms": ["1230"], "value": "The advertising is invasive" },
+        { "synonyms": ["cod1230at"], "value": "The advertising is invasive" },
         {
-            "synonyms": ["1231"],
+            "synonyms": ["cod1231at"],
             "value": "Don’t offer me enough information about the drivers"
         },
         {
-            "synonyms": ["1232"],
+            "synonyms": ["cod1232at"],
             "value": "APP functionality is not user-friendly"
         },
-        { "synonyms": ["1233"], "value": "The app is not stable (e.g. crash)" },
-        { "synonyms": ["1234"], "value": "Drivers cancel several rides" },
         {
-            "synonyms": ["1235"],
+            "synonyms": ["cod1233at"],
+            "value": "The app is not stable (e.g. crash)"
+        },
+        { "synonyms": ["cod1234at"], "value": "Drivers cancel several rides" },
+        {
+            "synonyms": ["cod1235at"],
             "value": "The navigation/ location system is not good (it cannot show my/driver location accurately, the suggested pick-up location is not accurate)"
         },
         {
-            "synonyms": ["1236"],
+            "synonyms": ["cod1236at"],
             "value": "It doesn’t offer variety of service level (taxi, basic/lit, economy, select, pool/shared, premium, luxury, etc.)"
         },
         {
-            "synonyms": ["1237"],
+            "synonyms": ["cod1237at"],
             "value": "The fare estimate is inaccurate and not close to final cost"
         },
         {
-            "synonyms": ["1238"],
+            "synonyms": ["cod1238at"],
             "value": "It has price increase at peak times"
         },
-        { "synonyms": ["1239"], "value": "The price has increased" },
+        { "synonyms": ["cod1239at"], "value": "The price has increased" },
         {
-            "synonyms": ["1240"],
+            "synonyms": ["cod1240at"],
             "value": "Less promotion and price are higher than before"
         },
         {
-            "synonyms": ["1241"],
+            "synonyms": ["cod1241at"],
             "value": "Promotion is less attractive than other ridesharing brands"
         },
-        { "synonyms": ["1242"], "value": "The promotion is not diverse" },
+        { "synonyms": ["cod1242at"], "value": "The promotion is not diverse" },
         {
-            "synonyms": ["1243"],
+            "synonyms": ["cod1243at"],
             "value": "The promotion is inconvenient to use"
         },
         {
-            "synonyms": ["1244"],
+            "synonyms": ["cod1244at"],
             "value": "I already had problems with improper billing (double payment, billing a ride that wasn’t made and others)"
         },
         {
-            "synonyms": ["1245"],
+            "synonyms": ["cod1245at"],
             "value": "It does not offer the payment method I like (i.e. cash, Paypal, credit cards, etc.)"
         },
-        { "synonyms": ["1246"], "value": "Inconvenient to issue the invoice" },
-        { "synonyms": ["1247"], "value": "Cancellation fee is high" },
         {
-            "synonyms": ["1248"],
+            "synonyms": ["cod1246at"],
+            "value": "Inconvenient to issue the invoice"
+        },
+        { "synonyms": ["cod1247at"], "value": "Cancellation fee is high" },
+        {
+            "synonyms": ["cod1248at"],
             "value": "It doesn’t offer me expected safety/emergency options during or after the ride"
         },
         {
-            "synonyms": ["1249"],
+            "synonyms": ["cod1249at"],
             "value": "The attitude of customer service is poor"
         },
         {
-            "synonyms": ["1250"],
+            "synonyms": ["cod1250at"],
             "value": "The response speed of customer service is slow"
         },
         {
-            "synonyms": ["1251"],
+            "synonyms": ["cod1251at"],
             "value": "The problem-solving ability of customer service is poor"
         },
         {
-            "synonyms": ["1252"],
+            "synonyms": ["cod1252at"],
             "value": "Its drivers don't dress or behave well."
         },
         {
-            "synonyms": ["1253"],
+            "synonyms": ["cod1253at"],
             "value": "Drivers are not consistent with the information I see in the app"
         },
         {
-            "synonyms": ["1254"],
+            "synonyms": ["cod1254at"],
             "value": "Drivers are not responsible (i.e. not show-up, not following the route, driving skill is not good etc.)"
         },
         {
-            "synonyms": ["1255"],
+            "synonyms": ["cod1255at"],
             "value": "Drivers are rude or didn’t serve me well"
         },
         {
-            "synonyms": ["1256"],
+            "synonyms": ["cod1256at"],
             "value": "Other mobility APPs are safer within more preventive measures"
         },
-        { "synonyms": ["1257"], "value": "99" },
-        { "synonyms": ["1258"], "value": "Uber" },
+        { "synonyms": ["cod1257at"], "value": "99" },
+        { "synonyms": ["cod1258at"], "value": "Uber" },
         {
-            "synonyms": ["1259"],
+            "synonyms": ["cod1259at"],
             "value": "I have not taken any ride with security camera"
         },
         {
-            "synonyms": ["1260"],
+            "synonyms": ["cod1260at"],
             "value": "Taxi, hailing on the street or via phone"
         },
-        { "synonyms": ["1261"], "value": "Hitchhike app" },
-        { "synonyms": ["1262"], "value": "Bus" },
-        { "synonyms": ["1263"], "value": "Car as a driver" },
+        { "synonyms": ["cod1261at"], "value": "Hitchhike app" },
+        { "synonyms": ["cod1262at"], "value": "Bus" },
+        { "synonyms": ["cod1263at"], "value": "Car as a driver" },
         {
-            "synonyms": ["1264"],
+            "synonyms": ["cod1264at"],
             "value": "Car as a passenger (excludes taxi and online ridesharing)"
         },
-        { "synonyms": ["1265"], "value": "Train/Subway" },
-        { "synonyms": ["1266"], "value": "Tram / Ferry" },
-        { "synonyms": ["1267"], "value": "Self-owned bicycle" },
-        { "synonyms": ["1268"], "value": "Motorcycle" },
-        { "synonyms": ["1269"], "value": "Self-owned scooter" },
-        { "synonyms": ["1270"], "value": "Mototaxi" },
-        { "synonyms": ["1271"], "value": "None of the above" },
-        { "synonyms": ["1272"], "value": "Bike using a bike share app" },
-        { "synonyms": ["1273"], "value": "Metrobus/trolebus" },
-        { "synonyms": ["1274"], "value": "Collective scooter" },
-        { "synonyms": ["1275"], "value": "Private car" },
-        { "synonyms": ["1276"], "value": "On foot" },
-        { "synonyms": ["1277"], "value": "Self-owned electric bicycle" },
-        { "synonyms": ["1278"], "value": "Electric-bicycle-sharing apps" },
-        { "synonyms": ["1279"], "value": "Collective scooter apps" },
+        { "synonyms": ["cod1265at"], "value": "Train/Subway" },
+        { "synonyms": ["cod1266at"], "value": "Tram / Ferry" },
+        { "synonyms": ["cod1267at"], "value": "Self-owned bicycle" },
+        { "synonyms": ["cod1268at"], "value": "Motorcycle" },
+        { "synonyms": ["cod1269at"], "value": "Self-owned scooter" },
+        { "synonyms": ["cod1270at"], "value": "Mototaxi" },
+        { "synonyms": ["cod1271at"], "value": "None of the above" },
+        { "synonyms": ["cod1272at"], "value": "Bike using a bike share app" },
+        { "synonyms": ["cod1273at"], "value": "Metrobus/trolebus" },
+        { "synonyms": ["cod1274at"], "value": "Collective scooter" },
+        { "synonyms": ["cod1275at"], "value": "Private car" },
+        { "synonyms": ["cod1276at"], "value": "On foot" },
+        { "synonyms": ["cod1277at"], "value": "Self-owned electric bicycle" },
+        { "synonyms": ["cod1278at"], "value": "Electric-bicycle-sharing apps" },
+        { "synonyms": ["cod1279at"], "value": "Collective scooter apps" },
         {
-            "synonyms": ["1280"],
+            "synonyms": ["cod1280at"],
             "value": "Mobility apps (excluding hailing on the street)"
         },
-        { "synonyms": ["1281"], "value": "None of the above fix exclusive" },
-        { "synonyms": ["1282"], "value": "Insurance" },
-        { "synonyms": ["1283"], "value": "Anonymous call" },
-        { "synonyms": ["1284"], "value": "Government collaboration" },
-        { "synonyms": ["1285"], "value": "24/7 Support" },
-        { "synonyms": ["1286"], "value": "Driver/Partner Background Check" },
-        { "synonyms": ["1287"], "value": "Driver/Partner facial recognition" },
-        { "synonyms": ["1288"], "value": "Hide address" },
-        { "synonyms": ["1289"], "value": "Intelligent models" },
-        { "synonyms": ["1290"], "value": "Un-match passenger" },
-        { "synonyms": ["1291"], "value": "Driver/Partner information" },
-        { "synonyms": ["1292"], "value": "Audio recording" },
-        { "synonyms": ["1293"], "value": "Safety Button" },
-        { "synonyms": ["1294"], "value": "Share your trip" },
-        { "synonyms": ["1295"], "value": "Trip monitoring" },
-        { "synonyms": ["1296"], "value": "Others (pls. Specify)" },
         {
-            "synonyms": ["1297"],
+            "synonyms": ["cod1281at"],
+            "value": "None of the above fix exclusive"
+        },
+        { "synonyms": ["cod1282at"], "value": "Insurance" },
+        { "synonyms": ["cod1283at"], "value": "Anonymous call" },
+        { "synonyms": ["cod1284at"], "value": "Government collaboration" },
+        { "synonyms": ["cod1285at"], "value": "24/7 Support" },
+        {
+            "synonyms": ["cod1286at"],
+            "value": "Driver/Partner Background Check"
+        },
+        {
+            "synonyms": ["cod1287at"],
+            "value": "Driver/Partner facial recognition"
+        },
+        { "synonyms": ["cod1288at"], "value": "Hide address" },
+        { "synonyms": ["cod1289at"], "value": "Intelligent models" },
+        { "synonyms": ["cod1290at"], "value": "Un-match passenger" },
+        { "synonyms": ["cod1291at"], "value": "Driver/Partner information" },
+        { "synonyms": ["cod1292at"], "value": "Audio recording" },
+        { "synonyms": ["cod1293at"], "value": "Safety Button" },
+        { "synonyms": ["cod1294at"], "value": "Share your trip" },
+        { "synonyms": ["cod1295at"], "value": "Trip monitoring" },
+        { "synonyms": ["cod1296at"], "value": "Others (pls. Specify)" },
+        {
+            "synonyms": ["cod1297at"],
             "value": "Having in-app safety features and tools"
         },
         {
-            "synonyms": ["1298"],
+            "synonyms": ["cod1298at"],
             "value": "Having detailed driver/partner information"
         },
         {
-            "synonyms": ["1299"],
+            "synonyms": ["cod1299at"],
             "value": "Driver/partner follows the trip route"
         },
         {
-            "synonyms": ["1300"],
+            "synonyms": ["cod1300at"],
             "value": "Riding with respectful drivers/partners"
         },
         {
-            "synonyms": ["1301"],
+            "synonyms": ["cod1301at"],
             "value": "Having a driver/partner with good driving skills"
         },
-        { "synonyms": ["1302"], "value": "Car being in optimal condition" },
         {
-            "synonyms": ["1303"],
+            "synonyms": ["cod1302at"],
+            "value": "Car being in optimal condition"
+        },
+        {
+            "synonyms": ["cod1303at"],
             "value": "Having an easy experience while using the app"
         },
         {
-            "synonyms": ["1304"],
+            "synonyms": ["cod1304at"],
             "value": "Having an effective process with customer service"
         },
-        { "synonyms": ["1305"], "value": "Receiving rapid emergency support" },
         {
-            "synonyms": ["1306"],
+            "synonyms": ["cod1305at"],
+            "value": "Receiving rapid emergency support"
+        },
+        {
+            "synonyms": ["cod1306at"],
             "value": "Having drivers/partners screened and with background"
         },
         {
-            "synonyms": ["1307"],
+            "synonyms": ["cod1307at"],
             "value": "Knowing my personal data is being protected"
         },
         {
-            "synonyms": ["1308"],
+            "synonyms": ["cod1308at"],
             "value": "Rideshare apps (excluding taxi apps)"
         },
-        { "synonyms": ["1309"], "value": "Taxi (via an app)" },
-        { "synonyms": ["1310"], "value": "Undup E-hailing" },
-        { "synonyms": ["1311"], "value": "Undup Public translortation" },
-        { "synonyms": ["1312"], "value": "Undup Bike/moto/electric bike" },
+        { "synonyms": ["cod1309at"], "value": "Taxi (via an app)" },
+        { "synonyms": ["cod1310at"], "value": "Undup E-hailing" },
+        { "synonyms": ["cod1311at"], "value": "Undup Public translortation" },
+        { "synonyms": ["cod1312at"], "value": "Undup Bike/moto/electric bike" },
         {
-            "synonyms": ["1313"],
+            "synonyms": ["cod1313at"],
             "value": "The brand has implemented comprehensive safety measures and protocols to ensure safe ride."
         },
         {
-            "synonyms": ["1314"],
+            "synonyms": ["cod1314at"],
             "value": "Filter drivers well based on their driving skills"
         },
-        { "synonyms": ["1315"], "value": "Drivers show professionalism" },
-        { "synonyms": ["1316"], "value": "Cars are clean and tidy" },
-        { "synonyms": ["1317"], "value": "Cars look safe enough" },
+        { "synonyms": ["cod1315at"], "value": "Drivers show professionalism" },
+        { "synonyms": ["cod1316at"], "value": "Cars are clean and tidy" },
+        { "synonyms": ["cod1317at"], "value": "Cars look safe enough" },
         {
-            "synonyms": ["1318"],
+            "synonyms": ["cod1318at"],
             "value": "The information of the car / plate / driver is consistent with that on the plat form"
         },
         {
-            "synonyms": ["1319"],
+            "synonyms": ["cod1319at"],
             "value": "There are multiple security functions in the app"
         },
         {
-            "synonyms": ["1320"],
+            "synonyms": ["cod1320at"],
             "value": "The location positioning / navigation function is accurate"
         },
         {
-            "synonyms": ["1321"],
+            "synonyms": ["cod1321at"],
             "value": "Take active protective measures against COVID-19 (i.e health tips, vehicle disinfection, etc.),"
         },
         {
-            "synonyms": ["1322"],
+            "synonyms": ["cod1322at"],
             "value": "Costs are so low that they compromise travel safety"
         },
         {
-            "synonyms": ["1323"],
+            "synonyms": ["cod1323at"],
             "value": "It's easy to ask for a quick ride, especially in rush hours and remote areas"
         },
         {
-            "synonyms": ["1324"],
+            "synonyms": ["cod1324at"],
             "value": "The customer service solve my problems quickly"
         },
         {
-            "synonyms": ["1325"],
+            "synonyms": ["cod1325at"],
             "value": "Use a protected / secure payment system"
         },
         {
-            "synonyms": ["1326"],
+            "synonyms": ["cod1326at"],
             "value": "I trust that they do not share or misuse my personal data"
         },
-        { "synonyms": ["1327"], "value": "The brand is well-known / reliable" },
         {
-            "synonyms": ["1328"],
+            "synonyms": ["cod1327at"],
+            "value": "The brand is well-known / reliable"
+        },
+        {
+            "synonyms": ["cod1328at"],
             "value": "There are no negative reports / comments about the brand"
         },
         {
-            "synonyms": ["1329"],
+            "synonyms": ["cod1329at"],
             "value": "The brand is from European or American countries"
         },
         {
-            "synonyms": ["1330"],
+            "synonyms": ["cod1330at"],
             "value": "The brand cares about society / gives back to society"
         },
-        { "synonyms": ["1331"], "value": "Offers safety focused messages" }
+        { "synonyms": ["cod1331at"], "value": "Offers safety focused messages" }
     ]
 }
